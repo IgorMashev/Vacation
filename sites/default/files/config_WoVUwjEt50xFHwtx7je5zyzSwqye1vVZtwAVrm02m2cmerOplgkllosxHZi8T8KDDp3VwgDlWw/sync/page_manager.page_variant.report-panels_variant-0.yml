@@ -1,0 +1,28 @@
+uuid: 63b50b5a-6377-4836-9b3d-4cc8018817a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.report
+  module:
+    - panels
+id: report-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: fb91b666-85f9-46ae-8017-bc3e96f54353
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: report-panels_variant-0
+  builder: standard
+page: report
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
