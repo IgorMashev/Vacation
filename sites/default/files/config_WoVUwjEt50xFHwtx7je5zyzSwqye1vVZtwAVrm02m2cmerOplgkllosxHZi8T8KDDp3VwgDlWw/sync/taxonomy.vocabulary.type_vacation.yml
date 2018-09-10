@@ -1,0 +1,9 @@
+uuid: 50969e75-766d-4e54-9396-9a5c3687dba9
+langcode: en
+status: true
+dependencies: {  }
+name: Type_vacation
+vid: type_vacation
+description: ''
+hierarchy: 0
+weight: 0

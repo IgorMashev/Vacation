@@ -1,0 +1,28 @@
+uuid: 52f01ed0-198f-4445-af3b-84636e328fdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.rules
+  module:
+    - panels
+id: rules-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 4d28afab-7d77-4533-87d6-0d939d51bd78
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: rules-panels_variant-0
+  builder: standard
+page: rules
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

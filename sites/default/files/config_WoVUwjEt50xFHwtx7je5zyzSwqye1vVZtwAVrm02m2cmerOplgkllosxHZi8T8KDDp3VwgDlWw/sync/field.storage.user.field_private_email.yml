@@ -1,0 +1,18 @@
+uuid: 4ac6462b-1726-4cb8-b0aa-a0d1d3d8c31c
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_private_email
+field_name: field_private_email
+entity_type: user
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

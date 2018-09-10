@@ -1,0 +1,20 @@
+uuid: af30d925-f105-4a5e-a779-f62cf1599a4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_private_email
+  module:
+    - user
+id: user.user.field_private_email
+field_name: field_private_email
+entity_type: user
+bundle: user
+label: 'Private Email'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
