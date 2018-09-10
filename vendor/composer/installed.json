@@ -6713,7 +6713,7 @@
         }
     },
     {
-<<<<<<< HEAD
+
         "name": "drupal/betterlogin",
         "version": "1.2.0",
         "version_normalized": "1.2.0.0",
@@ -6767,8 +6767,7 @@
         }
     },
     {
-=======
->>>>>>> master
+
         "name": "league/oauth2-google",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",
