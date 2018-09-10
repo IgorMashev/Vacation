@@ -1,0 +1,24 @@
+uuid: 1afe508a-9fb2-4721-9a77-860d73b3fdab
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.vertical-menu
+  module:
+    - system
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_verticalmenu
+theme: bootstrap_sass
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:vertical-menu'
+settings:
+  id: 'system_menu_block:vertical-menu'
+  label: 'Vertical menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
