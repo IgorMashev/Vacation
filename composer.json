@@ -28,7 +28,8 @@
         "drupal/views_data_export": "^1.0",
         "drupal/webform": "^5.0",
         "drupal/field_group": "^3.0",
-        "drupal/profile": "^1.0"
+        "drupal/profile": "^1.0",
+        "drupal/social_auth_google": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.5"
