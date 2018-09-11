@@ -1,0 +1,12 @@
+uuid: 0e5db654-c71d-4662-8166-a1cb0873fdf7
+langcode: en
+status: true
+dependencies: {  }
+id: rules
+label: Rules
+description: ''
+use_admin_theme: false
+path: /rules
+access_logic: and
+access_conditions: {  }
+parameters: {  }
