@@ -1,0 +1,8 @@
+uuid: ce136f90-3bd1-4196-83c6-2d56791e4fe4
+langcode: en
+status: true
+dependencies: {  }
+id: vocation
+label: Vocation
+description: ''
+locked: false
