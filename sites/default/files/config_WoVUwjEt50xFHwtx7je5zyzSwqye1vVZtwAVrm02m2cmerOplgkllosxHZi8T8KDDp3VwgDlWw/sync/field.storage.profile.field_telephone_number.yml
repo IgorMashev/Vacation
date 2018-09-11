@@ -1,13 +1,17 @@
-uuid: 360846b3-036a-48d0-8ba9-1899b4c00893
+uuid: 5ed1063c-4c76-478e-b1b0-eb3c8d4ef444
 langcode: en
 status: true
 dependencies:
   module:
+    - field_permissions
+    - profile
     - telephone
-    - user
-id: user.field_telephone_number
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: profile.field_telephone_number
 field_name: field_telephone_number
-entity_type: user
+entity_type: profile
 type: telephone
 settings: {  }
 module: telephone

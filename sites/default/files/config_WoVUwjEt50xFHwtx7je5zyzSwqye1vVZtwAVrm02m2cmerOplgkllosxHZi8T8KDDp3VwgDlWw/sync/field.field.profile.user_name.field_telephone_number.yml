@@ -1,16 +1,16 @@
-uuid: c02a1be3-a740-4e18-8657-b801a9824cf9
+uuid: c6280a0f-1b77-4736-95cc-670b98827e69
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_telephone_number
+    - field.storage.profile.field_telephone_number
+    - profile.type.user_name
   module:
     - telephone
-    - user
-id: user.user.field_telephone_number
+id: profile.user_name.field_telephone_number
 field_name: field_telephone_number
-entity_type: user
-bundle: user
+entity_type: profile
+bundle: user_name
 label: 'Telephone number'
 description: ''
 required: false

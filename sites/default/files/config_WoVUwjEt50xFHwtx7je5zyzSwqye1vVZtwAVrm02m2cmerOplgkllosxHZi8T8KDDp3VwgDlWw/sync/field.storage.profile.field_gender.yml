@@ -1,13 +1,17 @@
-uuid: e38450b2-4d67-458f-b3bc-0297d21ad713
+uuid: 25fc72db-3e55-408d-8010-f088d392b9a2
 langcode: en
 status: true
 dependencies:
   module:
+    - field_permissions
     - options
-    - user
-id: user.field_gender
+    - profile
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: profile.field_gender
 field_name: field_gender
-entity_type: user
+entity_type: profile
 type: list_string
 settings:
   allowed_values:

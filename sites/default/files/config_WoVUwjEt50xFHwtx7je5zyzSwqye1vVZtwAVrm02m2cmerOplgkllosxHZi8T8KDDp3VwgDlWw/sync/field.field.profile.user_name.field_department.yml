@@ -1,19 +1,18 @@
-uuid: f8254eb0-6cc0-491e-9040-7c573402de06
+uuid: c01c4f4e-b7a6-4387-917c-d4ac17d144f1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_company
-    - taxonomy.vocabulary.company
-  module:
-    - user
-id: user.user.field_company
-field_name: field_company
-entity_type: user
-bundle: user
-label: Company
+    - field.storage.profile.field_department
+    - profile.type.user_name
+    - taxonomy.vocabulary.department
+id: profile.user_name.field_department
+field_name: field_department
+entity_type: profile
+bundle: user_name
+label: Department
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -21,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      company: company
+      department: department
     sort:
       field: name
       direction: asc

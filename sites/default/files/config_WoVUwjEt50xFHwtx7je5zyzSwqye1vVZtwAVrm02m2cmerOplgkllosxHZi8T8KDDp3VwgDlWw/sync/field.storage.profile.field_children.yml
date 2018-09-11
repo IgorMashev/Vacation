@@ -1,13 +1,13 @@
-uuid: 4ac6462b-1726-4cb8-b0aa-a0d1d3d8c31c
+uuid: 3284857c-0e86-4a55-9ed3-07c0c907565f
 langcode: en
 status: true
 dependencies:
   module:
-    - user
-id: user.field_private_email
-field_name: field_private_email
-entity_type: user
-type: email
+    - profile
+id: profile.field_children
+field_name: field_children
+entity_type: profile
+type: boolean
 settings: {  }
 module: core
 locked: false

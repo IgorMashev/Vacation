@@ -1,16 +1,16 @@
-uuid: 1143f512-016b-4c54-ae04-52d73f084712
+uuid: 1ba9de14-3a95-4a93-8152-a6ac217c54f1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_date_of_birthday
+    - field.storage.profile.field_date_of_birthday
+    - profile.type.user_name
   module:
     - datetime
-    - user
-id: user.user.field_date_of_birthday
+id: profile.user_name.field_date_of_birthday
 field_name: field_date_of_birthday
-entity_type: user
-bundle: user
+entity_type: profile
+bundle: user_name
 label: 'Date of birthday'
 description: ''
 required: false

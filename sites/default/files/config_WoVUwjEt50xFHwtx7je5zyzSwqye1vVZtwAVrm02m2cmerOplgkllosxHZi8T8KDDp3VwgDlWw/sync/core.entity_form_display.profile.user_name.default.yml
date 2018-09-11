@@ -1,0 +1,140 @@
+uuid: acfd5203-935c-4dd6-a3f7-9357b2792aa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.user_name.field_avatar
+    - field.field.profile.user_name.field_children
+    - field.field.profile.user_name.field_company
+    - field.field.profile.user_name.field_date_of_birthday
+    - field.field.profile.user_name.field_department
+    - field.field.profile.user_name.field_drupal_org
+    - field.field.profile.user_name.field_email
+    - field.field.profile.user_name.field_facebook
+    - field.field.profile.user_name.field_gender
+    - field.field.profile.user_name.field_github
+    - field.field.profile.user_name.field_instagram
+    - field.field.profile.user_name.field_office
+    - field.field.profile.user_name.field_telephone_number
+    - field.field.profile.user_name.field_user
+    - field.field.profile.user_name.field_work_time
+    - image.style.thumbnail
+    - profile.type.user_name
+  module:
+    - datetime
+    - image
+    - link
+    - office_hours
+    - telephone
+id: profile.user_name.default
+targetEntityType: profile
+bundle: user_name
+mode: default
+content:
+  field_avatar:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_children:
+    weight: 15
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_company:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_date_of_birthday:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_department:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_drupal_org:
+    weight: 14
+    settings:
+      placeholder_url: 'https://www.drupal.org/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_facebook:
+    weight: 11
+    settings:
+      placeholder_url: 'https://www.facebook.com/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_gender:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_github:
+    weight: 13
+    settings:
+      placeholder_url: 'https://www.facebook.com/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_instagram:
+    weight: 12
+    settings:
+      placeholder_url: 'https://www.instagram.com/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_office:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_telephone_number:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_user:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_work_time:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: office_hours_default
+    region: content
+hidden: {  }
