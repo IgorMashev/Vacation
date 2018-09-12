@@ -4,17 +4,19 @@ _core:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://mysite.loc/themes/contrib/bootstrap/favicon.ico'
+  url: 'http://mysite.loc/themes/custom/bootstrap_sass/favicon.ico'
   use_default: true
+schemas:
+  bootstrap: 8000
+  bootstrap_sass: 8000
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://logo.jpg'
   url: ''
-  use_default: true
-schemas:
-  bootstrap: 8000
-  bootstrap_sass: 8000
+  use_default: false
+table_responsive: '-1'
+table: ''

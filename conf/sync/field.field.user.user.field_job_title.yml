@@ -1,0 +1,21 @@
+uuid: 4f6efd92-da69-46af-8907-3dec52e02998
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_job_title
+  module:
+    - options
+    - user
+id: user.user.field_job_title
+field_name: field_job_title
+entity_type: user
+bundle: user
+label: 'Job Title'
+description: "1 | CEO\r\n2 | CMSO\r\n3 | SEO\r\n4 | Assistant\r\n5 | Content manager\r\n6 | Designer\r\n7 | Deputy of sales department\r\n8 | Sales manager\r\n9 | HR\r\n10 | Accounter\r\n11 | OM\r\n12 | RM\r\n14 | PM\r\n13 | CPM\r\n15 | PM Intern\r\n16 | CIO\r\n17 | System administrator\r\n18 | Developer\r\n19 | QA\r\n20 | DevLead\r\n21 | Technical Leader\r\n22 | Team Leader\r\n23 | CSM\r\n24 | CTO\r\n25 | COO"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
