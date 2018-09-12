@@ -1,0 +1,28 @@
+uuid: 066de8a9-e6d7-41bf-b442-60e8e2f0380b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_facebook
+  module:
+    - link
+    - user
+id: user.user.field_facebook
+field_name: field_facebook
+entity_type: user
+bundle: user
+label: Facebook
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://www.facebook.com/'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

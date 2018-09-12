@@ -3,11 +3,53 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_children
+    - field.field.user.user.field_company
+    - field.field.user.user.field_corporate_e_mail
+    - field.field.user.user.field_date_of_birth
+    - field.field.user.user.field_department
+    - field.field.user.user.field_drupal_org
+    - field.field.user.user.field_facebook
+    - field.field.user.user.field_full_name
+    - field.field.user.user.field_github
+    - field.field.user.user.field_instagram
+    - field.field.user.user.field_job_title
+    - field.field.user.user.field_name
+    - field.field.user.user.field_office
+    - field.field.user.user.field_project
+    - field.field.user.user.field_slack
+    - field.field.user.user.field_worktime
+    - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
+    - conditional_fields
+    - datetime
+    - field_group
     - image
+    - link
+    - office_hours
     - user
+third_party_settings:
+  field_group:
+    group_links_to_social_networks:
+      children:
+        - field_facebook
+        - field_instagram
+        - field_github
+        - field_drupal_org
+      parent_name: ''
+      weight: 10
+      format_type: tab
+      format_settings:
+        id: links-social
+        classes: links-social
+        direction: vertical
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Links to social networks'
+      region: content
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
 id: user.user.default
@@ -15,32 +57,156 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  account:
-    weight: 0
-    region: content
-    settings: {  }
+  field_children:
+    weight: 7
+    settings:
+      display_label: true
     third_party_settings: {  }
-  contact:
-    weight: 2
+    type: boolean_checkbox
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  language:
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  timezone:
+  field_corporate_e_mail:
     weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
     region: content
+  field_date_of_birth:
+    weight: 5
     settings: {  }
     third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_drupal_org:
+    weight: 18
+    settings:
+      placeholder_url: 'https://www.drupal.org/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_facebook:
+    weight: 15
+    settings:
+      placeholder_url: 'https://www.facebook.com/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_full_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_github:
+    weight: 17
+    settings:
+      placeholder_url: 'https://github.com/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_instagram:
+    weight: 16
+    settings:
+      placeholder_url: 'https://www.instagram.com/'
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_job_title:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_name:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        87abc1f8-51cb-4434-8201-1f113222c3af:
+          dependee: field_children
+          settings:
+            state: visible
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
+    type: string_textfield
+    region: content
+  field_project:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_slack:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_worktime:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: office_hours_default
+    region: content
+  field_year_of_birth:
+    weight: 9
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        548535e4-5dfd-4236-9c6f-954fbfd972a4:
+          dependee: field_children
+          settings:
+            state: visible
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
+    type: datetime_default
+    region: content
   user_picture:
     type: image_image
-    weight: 4
+    weight: 1
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  account: true
+  contact: true
+  field_company: true
+  field_department: true
+  field_office: true
+  language: true
+  timezone: true

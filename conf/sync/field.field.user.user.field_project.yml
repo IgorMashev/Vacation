@@ -1,0 +1,20 @@
+uuid: 1df720eb-990a-4067-b7e8-8f514c8bbe74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_project
+  module:
+    - user
+id: user.user.field_project
+field_name: field_project
+entity_type: user
+bundle: user
+label: Project
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

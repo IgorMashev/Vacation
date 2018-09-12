@@ -1,0 +1,24 @@
+uuid: af22f5b1-eb83-4f5e-8cd7-0cd0b9b1c245
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.avatar
+  module:
+    - views
+  theme:
+    - bootstrap_sass
+id: views_block__avatar_block_1
+theme: bootstrap_sass
+region: navigation_collapsible
+weight: 0
+provider: null
+plugin: 'views_block:avatar-block_1'
+settings:
+  id: 'views_block:avatar-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

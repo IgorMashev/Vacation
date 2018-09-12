@@ -1,0 +1,22 @@
+uuid: b6d9d080-e2fa-4dbd-b998-db0f8d355357
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_children
+  module:
+    - user
+id: user.user.field_children
+field_name: field_children
+entity_type: user
+bundle: user
+label: Children
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
