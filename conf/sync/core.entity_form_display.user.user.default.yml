@@ -2,7 +2,11 @@ uuid: d2a215f0-051d-48cd-ad5d-d59b42ccfafb
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.field.user.user.field_user_picture
+    - image.style.thumbnail
   module:
+    - image
     - user
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
@@ -21,6 +25,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_user_picture:
+    weight: 7
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   language:
     weight: 0
     region: content
