@@ -1,8 +1,0 @@
-uuid: d49b479c-b5b8-4581-997a-6b15e857813e
-langcode: en
-status: true
-dependencies: {  }
-id: horizontal-menu
-label: 'Horizontal menu'
-description: ''
-locked: false
