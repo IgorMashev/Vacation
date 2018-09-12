@@ -1,11 +1,10 @@
-uuid: 0af9a4e0-1ed8-47b9-862d-ebbca5b27a5f
+uuid: 1df720eb-990a-4067-b7e8-8f514c8bbe74
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.user.field_project
   module:
-    - text
     - user
 id: user.user.field_project
 field_name: field_project
@@ -18,4 +17,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string_long

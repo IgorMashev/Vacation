@@ -1,15 +1,11 @@
-uuid: ddfbe6e8-87bc-4418-9194-5f29736dba5c
+uuid: 85a67312-cfc6-4fa9-bfe2-81b0b73be9f3
 langcode: en
 status: true
 dependencies:
   module:
-    - field_permissions
     - user
-third_party_settings:
-  field_permissions:
-    permission_type: public
-id: user.field_full_name
-field_name: field_full_name
+id: user.field_name
+field_name: field_name
 entity_type: user
 type: string
 settings:

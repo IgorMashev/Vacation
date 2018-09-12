@@ -1,18 +1,17 @@
-uuid: f5f056fd-8bea-4d74-844f-c7f27a54b4c0
+uuid: 851b389e-5833-437b-a56c-3f229d6a0d1d
 langcode: en
 status: true
 dependencies:
   module:
     - user
-id: user.field_project
-field_name: field_project
+id: user.field_children
+field_name: field_children
 entity_type: user
-type: string_long
-settings:
-  case_sensitive: false
+type: boolean
+settings: {  }
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

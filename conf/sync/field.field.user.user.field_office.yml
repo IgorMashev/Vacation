@@ -1,0 +1,30 @@
+uuid: bd8ffd2c-ee42-41a3-a9db-5cda6bf8b2a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_office
+    - taxonomy.vocabulary.office
+  module:
+    - user
+id: user.user.field_office
+field_name: field_office
+entity_type: user
+bundle: user
+label: Office
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      office: office
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

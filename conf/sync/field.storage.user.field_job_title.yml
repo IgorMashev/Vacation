@@ -14,7 +14,82 @@ field_name: field_job_title
 entity_type: user
 type: list_string
 settings:
-  allowed_values: {  }
+  allowed_values:
+    -
+      value: '1'
+      label: CEO
+    -
+      value: '2'
+      label: CMSO
+    -
+      value: '3'
+      label: SEO
+    -
+      value: '4'
+      label: Assistant
+    -
+      value: '5'
+      label: 'Content manager'
+    -
+      value: '6'
+      label: Designer
+    -
+      value: '7'
+      label: 'Deputy of sales department'
+    -
+      value: '8'
+      label: 'Sales manager'
+    -
+      value: '9'
+      label: HR
+    -
+      value: '10'
+      label: Accounter
+    -
+      value: '11'
+      label: OM
+    -
+      value: '12'
+      label: RM
+    -
+      value: '14'
+      label: PM
+    -
+      value: '13'
+      label: CPM
+    -
+      value: '15'
+      label: 'PM Intern'
+    -
+      value: '16'
+      label: CIO
+    -
+      value: '17'
+      label: 'System administrator'
+    -
+      value: '18'
+      label: Developer
+    -
+      value: '19'
+      label: QA
+    -
+      value: '20'
+      label: DevLead
+    -
+      value: '21'
+      label: 'Technical Leader'
+    -
+      value: '22'
+      label: 'Team Leader'
+    -
+      value: '23'
+      label: CSM
+    -
+      value: '24'
+      label: CTO
+    -
+      value: '25'
+      label: COO
   allowed_values_function: ''
 module: options
 locked: false

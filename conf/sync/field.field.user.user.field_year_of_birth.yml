@@ -1,21 +1,21 @@
-uuid: 4f6efd92-da69-46af-8907-3dec52e02998
+uuid: ee18a437-5324-4af0-9260-7f7beae37807
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_job_title
+    - field.storage.user.field_year_of_birth
   module:
-    - options
+    - datetime
     - user
-id: user.user.field_job_title
-field_name: field_job_title
+id: user.user.field_year_of_birth
+field_name: field_year_of_birth
 entity_type: user
 bundle: user
-label: 'Job Title'
+label: 'Year of Birth'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: datetime
