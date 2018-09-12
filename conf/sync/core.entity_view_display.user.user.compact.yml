@@ -14,6 +14,5 @@ bundle: user
 mode: compact
 content: {  }
 hidden:
-  field_user_picture: true
   member_for: true
   profile_user_name: true

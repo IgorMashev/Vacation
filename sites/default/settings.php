@@ -784,10 +784,11 @@ $settings['entity_update_batch_size'] = 50;
 #
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
+# }
 $databases['default']['default'] = array (
   'database' => 'mysite',
   'username' => 'root',
-  'password' => 'root',
+  'password' => '1111',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

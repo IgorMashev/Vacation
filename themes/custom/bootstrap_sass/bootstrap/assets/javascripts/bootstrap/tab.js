@@ -152,4 +152,14 @@
     .on('click.bs.tab.data-api', '[data-toggle="tab"]', clickHandler)
     .on('click.bs.tab.data-api', '[data-toggle="pill"]', clickHandler)
 
+
+$(document).ready(function () {
+    $('#block-picture').click(function (event) {
+        event.preventDefault()
+        $('#block-bootstrap-sass-account-menu').toggle();
+
+    });
+    });
+
+
 }(jQuery);
