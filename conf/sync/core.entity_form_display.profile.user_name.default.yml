@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.profile.user_name.field_avatar
     - field.field.profile.user_name.field_children
     - field.field.profile.user_name.field_company
     - field.field.profile.user_name.field_date_of_birthday
@@ -17,6 +16,7 @@ dependencies:
     - field.field.profile.user_name.field_office
     - field.field.profile.user_name.field_telephone_number
     - field.field.profile.user_name.field_user
+    - field.field.profile.user_name.field_user_picture
     - field.field.profile.user_name.field_work_time
     - image.style.thumbnail
     - profile.type.user_name
@@ -31,14 +31,6 @@ targetEntityType: profile
 bundle: user_name
 mode: default
 content:
-  field_avatar:
-    weight: 5
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
   field_children:
     weight: 15
     settings:
@@ -130,6 +122,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_user_picture:
+    weight: 16
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_work_time:
     weight: 10

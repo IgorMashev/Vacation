@@ -1,17 +1,17 @@
-uuid: 4d8a1b47-4d83-4a7c-b0f1-d2a78d46cf79
+uuid: ffa936c3-72e9-4cdb-95a3-e8b71df4c8ea
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.profile.field_avatar
-    - profile.type.user_name
+    - field.storage.user.field_user_picture
   module:
     - image
-id: profile.user_name.field_avatar
-field_name: field_avatar
-entity_type: profile
-bundle: user_name
-label: Avatar
+    - user
+id: user.user.field_user_picture
+field_name: field_user_picture
+entity_type: user
+bundle: user
+label: user_picture
 description: ''
 required: false
 translatable: false
@@ -23,8 +23,8 @@ settings:
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
-  alt_field: true
-  alt_field_required: false
+  alt_field: false
+  alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:

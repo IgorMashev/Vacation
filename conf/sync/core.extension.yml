@@ -12,6 +12,7 @@ module:
   color: 0
   colorbox: 0
   comment: 0
+  conditional_fields: 0
   config: 0
   contact: 0
   contextual: 0
@@ -27,6 +28,7 @@ module:
   entity: 0
   entity_reference_revisions: 0
   field: 0
+  field_group: 0
   field_permissions: 0
   field_ui: 0
   file: 0
@@ -66,7 +68,11 @@ module:
   update: 0
   user: 0
   views_ui: 0
-  webprofiler: 0
+  webform: 0
+  webform_access: 0
+  webform_devel: 0
+  webform_node: 0
+  webform_templates: 0
   ds: 1
   menu_link_content: 1
   views: 10
