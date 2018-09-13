@@ -35,7 +35,8 @@
         "drupal/conditional_fields": "^1.0",
         "drush/drush": "^9.4",
         "drupal/rules": "^3.0",
-        "drupal/typed_data": "^1.0"
+        "drupal/typed_data": "^1.0",
+        "drupal/entity_notification": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.5"

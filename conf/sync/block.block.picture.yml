@@ -2,12 +2,14 @@ uuid: 33ca0a60-91c8-47b9-b502-51b088e44c2f
 langcode: en
 status: true
 dependencies:
+  module:
+    - ctools_block
   theme:
     - bootstrap_sass
 id: picture
 theme: bootstrap_sass
-region: navigation_collapsible
-weight: 0
+region: navigation
+weight: -6
 provider: null
 plugin: 'entity_field:user:user_picture'
 settings:

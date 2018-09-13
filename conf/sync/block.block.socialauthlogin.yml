@@ -8,8 +8,8 @@ dependencies:
     - bootstrap_sass
 id: socialauthlogin
 theme: bootstrap_sass
-region: navigation_collapsible
-weight: 0
+region: content
+weight: -7
 provider: null
 plugin: social_auth_login
 settings:

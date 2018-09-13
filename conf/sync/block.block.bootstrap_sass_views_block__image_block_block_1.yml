@@ -1,6 +1,6 @@
 uuid: fc967895-6202-472f-bf7b-66a85cad4818
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.image_block

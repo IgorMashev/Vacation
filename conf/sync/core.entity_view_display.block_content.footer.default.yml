@@ -1,0 +1,24 @@
+uuid: fcf3c20c-afd4-436a-9df9-7c0255b3b077
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer
+    - field.field.block_content.footer.field_footer
+  module:
+    - image
+id: block_content.footer.default
+targetEntityType: block_content
+bundle: footer
+mode: default
+content:
+  field_footer:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

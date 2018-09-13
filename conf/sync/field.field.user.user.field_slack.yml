@@ -12,9 +12,11 @@ entity_type: user
 bundle: user
 label: slack
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: slack
 default_value_callback: ''
 settings: {  }
 field_type: string

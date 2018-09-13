@@ -12,9 +12,11 @@ entity_type: user
 bundle: user
 label: Project
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: Project
 default_value_callback: ''
 settings: {  }
 field_type: string_long

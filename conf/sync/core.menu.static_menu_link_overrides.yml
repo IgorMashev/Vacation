@@ -12,8 +12,8 @@ definitions:
     expanded: false
     weight: 0
   user__page:
-    menu_name: main
-    parent: 'menu_link_content:802ba57a-59cf-4d0b-86bf-7f99fb756e9b'
+    menu_name: account
+    parent: ''
     weight: -10
     expanded: false
     enabled: true
