@@ -8,8 +8,8 @@ dependencies:
     - bootstrap_sass
 id: picture
 theme: bootstrap_sass
-region: navigation
-weight: -6
+region: navigation_collapsible
+weight: -9
 provider: null
 plugin: 'entity_field:user:user_picture'
 settings:
