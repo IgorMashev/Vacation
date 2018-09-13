@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82370f13-71f7-420a-a9a1-c0533f45cae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Vacation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/field.field.user.user.user_picture.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/field.storage.user.user_picture.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/block.block.bootstrap_sass_verticalmenu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/block.block.horizontalmenu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/block.block.verticalmenu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.entity_form_display.user.user.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.entity_form_display.user.user.default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.menu.static_menu_link_overrides.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.menu.static_menu_link_overrides.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/system.menu.horizontal-menu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/system.menu.vertical-menu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/system.menu.vocation.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/bootstrap_sass/bootstrap/assets/javascripts/bootstrap/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/bootstrap_sass/bootstrap/assets/javascripts/bootstrap/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/bootstrap_sass/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/bootstrap_sass/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/bootstrap_sass/scss/component/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/bootstrap_sass/scss/component/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-    </list>
+    <list default="true" id="82370f13-71f7-420a-a9a1-c0533f45cae7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +15,7 @@
     <session id="1304068712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -212,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536758729951</updated>
       <workItem from="1536758733512" duration="12000" />
-      <workItem from="1536758883342" duration="615000" />
+      <workItem from="1536758883342" duration="1209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="627000" />
+    <option name="totallyTimeSpent" value="1221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="275" y="60" width="1400" height="1000" extended-state="0" />
