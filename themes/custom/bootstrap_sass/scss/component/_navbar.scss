@@ -69,6 +69,7 @@ body {
   }
 }
 .navbar {
+
   border: 0;
   background-color: inherit;
   width: 100%;
@@ -80,22 +81,36 @@ body {
   }
   .navbar-nav > li > a {
     color: #aaa;
+    line-height: 40px;
     }
   .navbar-header {
       width: 100%;
       }
   .contextual-region {
-    
     display: inline-block;
       }
-  #block-bootstrap-sass-account-menu, #block-picture {
+      #block-picture {
         float: right;
+      }
+  #block-bootstrap-sass-account-menu, #block-user-login {
+      float: right;
+        a {
+          margin: 10px 15px;
+          border-radius: 5px;
+          padding: 0 5px;
+          color: white;
+          &:hover {
+          color: #555;
+          background: #eeeeee;
+          
+          }
+        }
       }
   #block-picture {
     cursor: pointer;
     height: 50px;
     vertical-align: middle;
-     line-height: 55px;
+    line-height: 60px;
     .field{
       border-fit: overwrite;
       vertical-align: middle;
@@ -106,7 +121,9 @@ body {
     }
 }
 #block-bootstrap-sass-account-menu {
-  background-color: #797977;
+  a {
+    background-color: #797977;
+  }
   cursor: pointer;
   display: none;
 }
@@ -126,3 +143,17 @@ body {
 #middle_part {
 position: relative;
 }
+
+
+.navbar-collapse {
+  line-height: 40px;
+}
+#block-bootstrap-sass-main-menu {
+        a {
+          color: #555;
+          &:hover {
+          color: #555;
+          background: #eeeeee;
+          }
+        }
+    }    

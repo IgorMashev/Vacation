@@ -1,34 +1,32 @@
-uuid: da3e852b-ade0-4b98-8063-d4c7edcf1418
+uuid: 7cd60493-735e-4f09-9bb0-77611c3be943
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.account
+    - system.menu.user-login
   module:
     - system
     - user
   theme:
     - bootstrap_sass
-_core:
-  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
-id: bootstrap_sass_account_menu
+id: user_login
 theme: bootstrap_sass
 region: navigation_collapsible
-weight: -7
+weight: 0
 provider: null
-plugin: 'system_menu_block:account'
+plugin: 'system_menu_block:user-login'
 settings:
-  id: 'system_menu_block:account'
-  label: 'User account menu'
+  id: 'system_menu_block:user-login'
+  label: user_login
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 0
 visibility:
   user_role:
     id: user_role
     roles:
-      authenticated: authenticated
+      anonymous: anonymous
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'

@@ -74,7 +74,6 @@ p:last-child,
 .sections{
   &:nth-of-type(odd) {
   background: #555;
-  min-height: 60px;
   }
   &:nth-of-type(even) {
   background: #aaa;
