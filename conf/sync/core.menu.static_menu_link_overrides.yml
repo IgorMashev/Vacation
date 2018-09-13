@@ -12,10 +12,10 @@ definitions:
     expanded: false
     weight: 0
   user__page:
-    menu_name: main
-    parent: 'menu_link_content:802ba57a-59cf-4d0b-86bf-7f99fb756e9b'
-    weight: -10
+    enabled: false
+    menu_name: account
+    parent: ''
     expanded: false
-    enabled: true
+    weight: -10
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

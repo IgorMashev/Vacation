@@ -4,12 +4,13 @@ status: true
 dependencies:
   module:
     - social_auth
+    - system
   theme:
     - bootstrap_sass
 id: socialauthlogin
 theme: bootstrap_sass
-region: navigation_collapsible
-weight: 0
+region: content
+weight: -7
 provider: null
 plugin: social_auth_login
 settings:
@@ -17,4 +18,9 @@ settings:
   label: 'Social Auth Login'
   provider: social_auth
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/login
+    negate: false
+    context_mapping: {  }

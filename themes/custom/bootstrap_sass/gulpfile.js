@@ -136,7 +136,7 @@ gulp.task('browser-sync', function() {
     'templates/**/*.twig'
   ];
   browserSync.init({
-    proxy: "study.loc",
+    proxy: "mysite.loc",
     online: true
   });
 });
