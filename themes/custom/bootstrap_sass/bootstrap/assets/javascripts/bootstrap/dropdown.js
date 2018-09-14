@@ -1,4 +1,4 @@
-/* ========================================================================
+ /* ========================================================================
  * Bootstrap: dropdown.js v3.3.7
  * http://getbootstrap.com/javascript/#dropdowns
  * ========================================================================
@@ -150,7 +150,14 @@
     $.fn.dropdown = old
     return this
   }
+// 
+$(document).ready(function () {
+    $('#block-picture').click(function (event) {
+        event.preventDefault();
+        $('#block-bootstrap-sass-account-menu').toggle();
 
+    });
+    });
 
   // APPLY TO STANDARD DROPDOWN ELEMENTS
   // ===================================
