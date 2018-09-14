@@ -39,7 +39,7 @@ third_party_settings:
         - field_github
         - field_drupal_org
       parent_name: ''
-      weight: 10
+      weight: 11
       format_type: tab
       format_settings:
         id: links-social
@@ -130,7 +130,7 @@ content:
     type: options_select
     region: content
   field_name:
-    weight: 12
+    weight: 9
     settings:
       size: 60
       placeholder: ''
@@ -171,13 +171,13 @@ content:
     type: string_textfield
     region: content
   field_worktime:
-    weight: 11
+    weight: 12
     settings: {  }
     third_party_settings: {  }
     type: office_hours_default
     region: content
   field_year_of_birth:
-    weight: 9
+    weight: 10
     settings: {  }
     third_party_settings:
       conditional_fields:

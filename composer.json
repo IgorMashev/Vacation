@@ -36,6 +36,8 @@
         "drush/drush": "^9.4",
         "drupal/rules": "^3.0",
         "drupal/typed_data": "^1.0",
+        "drupal/entity_notification": "^1.0",
+        "drupal/computed_field": "^2.0",
         "drupal/menu_token": "^1.0"
     },
     "replace": {
@@ -74,7 +76,7 @@
         },
          "patches": {
             "drupal/address": {
-                "Drupal Addess fix default syncing": "https://www.drupal.org/files/issues/conditional_fields-uninitialized_string_offset_in_conditional_fields_evaluate_dependency-2834358-11.patch"     
+                "Drupal Addess fix default syncing": "https://www.drupal.org/files/issues/conditional_fields-uninitialized_string_offset_in_conditional_fields_evaluate_dependency-2834358-11.patch"
             }
         }
     },
