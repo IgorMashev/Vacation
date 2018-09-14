@@ -136,7 +136,7 @@ content:
       placeholder: ''
     third_party_settings:
       conditional_fields:
-        87abc1f8-51cb-4434-8201-1f113222c3af:
+        2120c59d-11ae-49fd-8943-2849da113ae8:
           dependee: field_children
           settings:
             state: visible
@@ -181,7 +181,7 @@ content:
     settings: {  }
     third_party_settings:
       conditional_fields:
-        548535e4-5dfd-4236-9c6f-954fbfd972a4:
+        914e24c9-8379-4b8b-86e9-af93c60644ae:
           dependee: field_children
           settings:
             state: visible

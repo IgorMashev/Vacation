@@ -1,0 +1,15 @@
+uuid: b728215f-cbad-4a67-adf5-dcb6376ee9bd
+langcode: en
+status: true
+dependencies: {  }
+name: footer
+label: Footer
+effects:
+  07b351cf-57ad-41cb-b60e-a9aa3de08445:
+    uuid: 07b351cf-57ad-41cb-b60e-a9aa3de08445
+    id: image_scale
+    weight: 1
+    data:
+      width: 250
+      height: 60
+      upscale: false

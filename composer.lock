@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06d1eecc5010c60d1869f4ccbfdad51c",
-    "content-hash": "c660e8336438758d80101377a0b93adf",
+    "hash": "fbdb4ff1482db0a28bbd4c2f715e8765",
+    "content-hash": "7abeb233060bec8b69a23faa06ab1857",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2414,6 +2414,57 @@
             "homepage": "http://drupal.org/project/entity",
             "support": {
                 "source": "http://cgit.drupalcode.org/entity"
+            }
+        },
+        {
+            "name": "drupal/entity_field_condition",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entity_field_condition",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_field_condition-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "161f7eeb868cbc310eb07f35242a2720277b3ca2"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1480718584",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "FluxSauce",
+                    "homepage": "https://www.drupal.org/user/1386596"
+                }
+            ],
+            "description": "Provides a Condition plugin that checks to see if a particular entity bundle has a field with a specific value.",
+            "homepage": "https://www.drupal.org/project/entity_field_condition",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/entity_field_condition",
+                "issues": "https://www.drupal.org/project/issues/entity_field_condition"
             }
         },
         {

@@ -2140,71 +2140,6 @@
         }
     },
     {
-        "name": "drupal/conditional_fields",
-        "version": "1.0.0-alpha4",
-        "version_normalized": "1.0.0.0-alpha4",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/conditional_fields",
-            "reference": "8.x-1.0-alpha4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha4.zip",
-            "reference": "8.x-1.0-alpha4",
-            "shasum": "5e13204d5296c63958eacc0028cdb6c7a4d2e3d3"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-alpha4",
-                "datestamp": "1511555675",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Project has not opted into security advisory coverage!"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Adyax",
-                "homepage": "https://www.adyax.com/"
-            },
-            {
-                "name": "axel.rutz",
-                "homepage": "https://www.drupal.org/user/229048"
-            },
-            {
-                "name": "colan",
-                "homepage": "https://www.drupal.org/user/58704"
-            },
-            {
-                "name": "itsekhmistro",
-                "homepage": "https://www.drupal.org/user/928152"
-            },
-            {
-                "name": "peterpoe",
-                "homepage": "https://www.drupal.org/user/55674"
-            }
-        ],
-        "description": "Conditional fields",
-        "homepage": "https://www.drupal.org/project/conditional_fields",
-        "support": {
-            "source": "http://cgit.drupalcode.org/conditional_fields"
-        }
-    },
-    {
         "name": "drupal/contribute",
         "version": "5.0.0-beta3",
         "version_normalized": "5.0.0.0-beta3",
@@ -9681,6 +9616,124 @@
         "homepage": "https://www.drupal.org/project/computed_field",
         "support": {
             "source": "http://cgit.drupalcode.org/computed_field"
+        }
+    },
+    {
+        "name": "drupal/entity_field_condition",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/entity_field_condition",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/entity_field_condition-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "161f7eeb868cbc310eb07f35242a2720277b3ca2"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1480718584",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "FluxSauce",
+                "homepage": "https://www.drupal.org/user/1386596"
+            }
+        ],
+        "description": "Provides a Condition plugin that checks to see if a particular entity bundle has a field with a specific value.",
+        "homepage": "https://www.drupal.org/project/entity_field_condition",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/entity_field_condition",
+            "issues": "https://www.drupal.org/project/issues/entity_field_condition"
+        }
+    },
+    {
+        "name": "drupal/conditional_fields",
+        "version": "1.0.0-alpha4",
+        "version_normalized": "1.0.0.0-alpha4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/conditional_fields",
+            "reference": "8.x-1.0-alpha4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha4.zip",
+            "reference": "8.x-1.0-alpha4",
+            "shasum": "5e13204d5296c63958eacc0028cdb6c7a4d2e3d3"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha4",
+                "datestamp": "1511555675",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Adyax",
+                "homepage": "https://www.adyax.com/"
+            },
+            {
+                "name": "axel.rutz",
+                "homepage": "https://www.drupal.org/user/229048"
+            },
+            {
+                "name": "colan",
+                "homepage": "https://www.drupal.org/user/58704"
+            },
+            {
+                "name": "itsekhmistro",
+                "homepage": "https://www.drupal.org/user/928152"
+            },
+            {
+                "name": "peterpoe",
+                "homepage": "https://www.drupal.org/user/55674"
+            }
+        ],
+        "description": "Conditional fields",
+        "homepage": "https://www.drupal.org/project/conditional_fields",
+        "support": {
+            "source": "http://cgit.drupalcode.org/conditional_fields"
         }
     }
 ]
