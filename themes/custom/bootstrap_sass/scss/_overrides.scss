@@ -73,10 +73,21 @@ p:last-child,
 }
 .sections{
   &:nth-of-type(odd) {
-  background: #555;
+  background: $color1;
+  color: $colortext;
+  a {
+          color: white;
+     }
+  .nav-tabs a {
+            &:hover { 
+              color: $color1;
+            }
+          }
+    
   }
   &:nth-of-type(even) {
-  background: #aaa;
+  background: $color2;
+
   }
 }
 .main-container {

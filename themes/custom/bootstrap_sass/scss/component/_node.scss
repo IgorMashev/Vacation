@@ -25,11 +25,19 @@
 				opacity: 0.5;
 			}
 		}
-		p {
-			color: #aaa;
+		div, p {
+			color: white;
 		}
 	}
 }
 .region-content {
 	padding-bottom: 10px;
 }
+#bottom_part {
+  	  a {
+          color: $color1;
+          &:hover {
+            color: white;
+          }
+    }    
+  }
