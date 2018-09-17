@@ -136,12 +136,12 @@ content:
       placeholder: ''
     third_party_settings:
       conditional_fields:
-        2120c59d-11ae-49fd-8943-2849da113ae8:
+        6582a734-5fd8-4434-a37a-222ec538f853:
           dependee: field_children
           settings:
             state: visible
             condition: checked
-            grouping: AND
+            grouping: OR
             values_set: 1
             value: ''
             values: {  }
@@ -181,12 +181,12 @@ content:
     settings: {  }
     third_party_settings:
       conditional_fields:
-        914e24c9-8379-4b8b-86e9-af93c60644ae:
+        50e8b776-1710-4ec9-a76d-70a974c80247:
           dependee: field_children
           settings:
             state: visible
             condition: checked
-            grouping: AND
+            grouping: XOR
             values_set: 1
             value: ''
             values: {  }

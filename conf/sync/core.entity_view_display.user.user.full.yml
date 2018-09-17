@@ -1,8 +1,9 @@
-uuid: 678ee12a-65e1-4770-9d17-0cd39c773980
+uuid: be609a3f-33e3-4778-a9d7-6cc62ca1c2de
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.user.full
     - field.field.user.user.field_children
     - field.field.user.user.field_company
     - field.field.user.user.field_corporate_e_mail
@@ -50,10 +51,10 @@ third_party_settings:
       region: content
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
-id: user.user.default
+id: user.user.full
 targetEntityType: user
 bundle: user
-mode: default
+mode: full
 content:
   field_children:
     weight: 7
@@ -80,7 +81,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: email_mailto
+    type: basic_string
     region: content
   field_date_of_birth:
     weight: 6
