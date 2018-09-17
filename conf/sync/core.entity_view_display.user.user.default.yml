@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.user.user.field_children
     - field.field.user.user.field_company
-    - field.field.user.user.field_corporate_e_mail
     - field.field.user.user.field_date_of_birth
     - field.field.user.user.field_department
     - field.field.user.user.field_drupal_org
@@ -75,13 +74,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_corporate_e_mail:
-    weight: 5
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
     region: content
   field_date_of_birth:
     weight: 7

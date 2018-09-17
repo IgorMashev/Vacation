@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.user.user.field_children
     - field.field.user.user.field_company
-    - field.field.user.user.field_corporate_e_mail
     - field.field.user.user.field_date_of_birth
     - field.field.user.user.field_department
     - field.field.user.user.field_drupal_org
@@ -68,14 +67,6 @@ content:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
-    region: content
-  field_corporate_e_mail:
-    weight: 4
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: email_default
     region: content
   field_date_of_birth:
     weight: 6

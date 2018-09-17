@@ -22,7 +22,7 @@ settings:
     type: image
     settings:
       image_style: avatar
-      image_link: content
+      image_link: ''
     third_party_settings: {  }
     weight: 0
   context_mapping:
