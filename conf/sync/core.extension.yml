@@ -81,6 +81,7 @@ module:
   contribute: 1
   ds: 1
   menu_link_content: 1
+  webform_bootstrap: 1
   views: 10
   paragraphs: 11
   standard: 1000

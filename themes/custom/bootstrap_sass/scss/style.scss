@@ -10,3 +10,16 @@
 .path-frontpage .has-glyphicons {
 	background: #555555;
 }
+body {
+	background: $color2;
+	.form-control, .file > span, .breadcrumb, .panel-heading {
+		background-color: $color2 !important;
+
+	}
+	#links-social--content, #edit-field-worktime--content {
+		background-color: $color11 !important;
+		a {
+				color: $color2;
+		}
+	}
+}

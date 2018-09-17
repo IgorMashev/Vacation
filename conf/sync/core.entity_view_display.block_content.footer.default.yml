@@ -5,6 +5,7 @@ dependencies:
   config:
     - block_content.type.footer
     - field.field.block_content.footer.field_footer
+    - image.style.myfooter
   module:
     - image
 id: block_content.footer.default
@@ -14,9 +15,9 @@ mode: default
 content:
   field_footer:
     weight: 1
-    label: above
+    label: hidden
     settings:
-      image_style: ''
+      image_style: myfooter
       image_link: ''
     third_party_settings: {  }
     type: image
