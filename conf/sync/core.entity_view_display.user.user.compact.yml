@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.user.compact
     - field.field.user.user.field_children
     - field.field.user.user.field_company
-    - field.field.user.user.field_corporate_e_mail
     - field.field.user.user.field_date_of_birth
     - field.field.user.user.field_department
     - field.field.user.user.field_drupal_org
@@ -16,7 +15,8 @@ dependencies:
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
-    - field.field.user.user.field_office
+    - field.field.user.user.field_non_standard_work_time
+    - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_worktime
@@ -34,7 +34,6 @@ content: {  }
 hidden:
   field_children: true
   field_company: true
-  field_corporate_e_mail: true
   field_date_of_birth: true
   field_department: true
   field_drupal_org: true
@@ -44,7 +43,8 @@ hidden:
   field_instagram: true
   field_job_title: true
   field_name: true
-  field_office: true
+  field_non_standard_work_time: true
+  field_office_time: true
   field_project: true
   field_slack: true
   field_worktime: true

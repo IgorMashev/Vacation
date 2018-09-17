@@ -1,19 +1,22 @@
-uuid: ee5c6acc-09a5-4be1-8750-10680e3b3a35
+uuid: 11833cdf-598e-4f6b-a733-046b23f91c33
 langcode: en
 status: true
 dependencies:
   module:
+    - computed_field
+    - contact
     - field_permissions
-    - user
 third_party_settings:
   field_permissions:
     permission_type: public
-id: user.field_corporate_e_mail
-field_name: field_corporate_e_mail
-entity_type: user
-type: email
-settings: {  }
-module: core
+id: contact_message.field_order
+field_name: field_order
+entity_type: contact_message
+type: computed_integer
+settings:
+  unsigned: false
+  size: normal
+module: computed_field
 locked: false
 cardinality: 1
 translatable: true

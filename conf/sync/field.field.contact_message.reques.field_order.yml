@@ -1,0 +1,26 @@
+uuid: f328f13b-77bb-467b-90c8-9f78f6ebf094
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.reques
+    - field.storage.contact_message.field_order
+  module:
+    - computed_field
+id: contact_message.reques.field_order
+field_name: field_order
+entity_type: contact_message
+bundle: reques
+label: Order
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  code: '$value = $entity->field_to->value-$entity->field_from->value'
+  prefix: ''
+  suffix: ''
+field_type: computed_integer

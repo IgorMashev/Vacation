@@ -21,6 +21,7 @@ module:
   ctools: 0
   ctools_block: 0
   ctools_views: 0
+  date_time_day: 0
   datetime: 0
   dblog: 0
   devel: 0
@@ -30,7 +31,6 @@ module:
   entity: 0
   entity_reference_revisions: 0
   field: 0
-  field_entity_dependency: 0
   field_group: 0
   field_permissions: 0
   field_ui: 0
@@ -39,6 +39,7 @@ module:
   help: 0
   history: 0
   image: 0
+  inline_form_errors: 0
   kint: 0
   layout_discovery: 0
   libraries: 0

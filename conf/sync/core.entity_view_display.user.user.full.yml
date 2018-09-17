@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.user.full
     - field.field.user.user.field_children
     - field.field.user.user.field_company
-    - field.field.user.user.field_corporate_e_mail
     - field.field.user.user.field_date_of_birth
     - field.field.user.user.field_department
     - field.field.user.user.field_drupal_org
@@ -16,7 +15,8 @@ dependencies:
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
-    - field.field.user.user.field_office
+    - field.field.user.user.field_non_standard_work_time
+    - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_worktime
@@ -75,13 +75,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_corporate_e_mail:
-    weight: 4
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
     region: content
   field_date_of_birth:
     weight: 6
@@ -171,14 +164,6 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_office:
-    weight: 14
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   field_project:
     weight: 15
     label: above
@@ -245,4 +230,6 @@ content:
       image_link: ''
     third_party_settings: {  }
 hidden:
+  field_non_standard_work_time: true
+  field_office_time: true
   member_for: true
