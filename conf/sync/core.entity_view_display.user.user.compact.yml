@@ -1,27 +1,9 @@
 uuid: fa7b0c22-360b-406f-99b4-08f7e5d81e47
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
-    - field.field.user.user.field_children
-    - field.field.user.user.field_company
-    - field.field.user.user.field_date_of_birth
-    - field.field.user.user.field_department
-    - field.field.user.user.field_drupal_org
-    - field.field.user.user.field_facebook
-    - field.field.user.user.field_full_name
-    - field.field.user.user.field_github
-    - field.field.user.user.field_instagram
-    - field.field.user.user.field_job_title
-    - field.field.user.user.field_name
-    - field.field.user.user.field_non_standard_work_time
-    - field.field.user.user.field_office_time
-    - field.field.user.user.field_project
-    - field.field.user.user.field_slack
-    - field.field.user.user.field_worktime
-    - field.field.user.user.field_year_of_birth
-    - field.field.user.user.user_picture
   module:
     - user
 _core:
@@ -32,23 +14,5 @@ bundle: user
 mode: compact
 content: {  }
 hidden:
-  field_children: true
-  field_company: true
-  field_date_of_birth: true
-  field_department: true
-  field_drupal_org: true
-  field_facebook: true
-  field_full_name: true
-  field_github: true
-  field_instagram: true
-  field_job_title: true
-  field_name: true
-  field_non_standard_work_time: true
-  field_office_time: true
-  field_project: true
-  field_slack: true
-  field_worktime: true
-  field_year_of_birth: true
   member_for: true
   profile_user_name: true
-  user_picture: true

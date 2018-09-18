@@ -1,0 +1,33 @@
+uuid: 884004fc-44f1-44f1-a1ed-dd2c674a3731
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:iudevh:e7b2c662-cd2e-4a22-a6b3-f3e5fdddf8e9'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - bootstrap_sass
+id: r2w3
+theme: bootstrap_sass
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e7b2c662-cd2e-4a22-a6b3-f3e5fdddf8e9'
+settings:
+  id: 'block_content:e7b2c662-cd2e-4a22-a6b3-f3e5fdddf8e9'
+  label: r2w3
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    bundles:
+      request: request
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'

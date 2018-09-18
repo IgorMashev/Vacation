@@ -1,9 +1,0 @@
-id: fields
-label: Fields
-ui_limit: ''
-properties:
-  ds_plugin: 'bundle_field:user'
-type: copy
-type_label: 'Copy field'
-entities:
-  user: user

@@ -14,8 +14,7 @@ dependencies:
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
-    - field.field.user.user.field_non_standard_work_time
-    - field.field.user.user.field_office_time
+    - field.field.user.user.field_office
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_worktime
@@ -39,7 +38,7 @@ third_party_settings:
         - field_github
         - field_drupal_org
       parent_name: ''
-      weight: 11
+      weight: 10
       format_type: tab
       format_settings:
         id: links-social
@@ -63,18 +62,36 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_children:
-    weight: 8
+    weight: 7
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
     region: content
+  field_company:
+    type: entity_reference_autocomplete
+    weight: 12
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_date_of_birth:
-    weight: 6
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
+  field_department:
+    type: entity_reference_autocomplete
+    weight: 13
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_drupal_org:
     weight: 18
     settings:
@@ -95,7 +112,7 @@ content:
     weight: 1
     settings:
       size: 60
-      placeholder: 'Петренко Петро Петрович'
+      placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
@@ -122,18 +139,18 @@ content:
     type: options_select
     region: content
   field_name:
-    weight: 9
+    weight: 8
     settings:
       size: 60
       placeholder: ''
     third_party_settings:
       conditional_fields:
-        6582a734-5fd8-4434-a37a-222ec538f853:
+        87abc1f8-51cb-4434-8201-1f113222c3af:
           dependee: field_children
           settings:
             state: visible
             condition: checked
-            grouping: OR
+            grouping: AND
             values_set: 1
             value: ''
             values: {  }
@@ -146,38 +163,17 @@ content:
           bundle: user
     type: string_textfield
     region: content
-  field_non_standard_work_time:
-    weight: 12
-    settings:
-      display_label: true
-    third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
-  field_office_time:
+  field_office:
+    type: entity_reference_autocomplete
     weight: 14
-    settings: {  }
-    third_party_settings:
-      conditional_fields:
-        6d067450-d6fa-40a8-ae85-4d95b726df17:
-          dependee: field_non_standard_work_time
-          settings:
-            state: visible
-            condition: '!checked'
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              value: false
-            effect: show
-            effect_options: {  }
-            selector: ''
-          entity_type: user
-          bundle: user
-    type: options_select
     region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_project:
-    weight: 7
+    weight: 6
     settings:
       rows: 5
       placeholder: ''
@@ -185,7 +181,7 @@ content:
     type: string_textarea
     region: content
   field_slack:
-    weight: 5
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -193,39 +189,22 @@ content:
     type: string_textfield
     region: content
   field_worktime:
-    weight: 13
+    weight: 11
     settings: {  }
-    third_party_settings:
-      conditional_fields:
-        dc44f18f-1e25-4046-aefe-d6e2ca3a1568:
-          dependee: field_non_standard_work_time
-          settings:
-            state: visible
-            condition: checked
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              value: false
-            effect: show
-            effect_options: {  }
-            selector: ''
-          entity_type: user
-          bundle: user
+    third_party_settings: {  }
     type: office_hours_default
     region: content
   field_year_of_birth:
-    weight: 10
+    weight: 9
     settings: {  }
     third_party_settings:
       conditional_fields:
-        50e8b776-1710-4ec9-a76d-70a974c80247:
+        548535e4-5dfd-4236-9c6f-954fbfd972a4:
           dependee: field_children
           settings:
             state: visible
             condition: checked
-            grouping: XOR
+            grouping: AND
             values_set: 1
             value: ''
             values: {  }
@@ -248,7 +227,5 @@ content:
     third_party_settings: {  }
 hidden:
   contact: true
-  field_company: true
-  field_department: true
   language: true
   timezone: true

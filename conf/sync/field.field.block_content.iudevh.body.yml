@@ -1,0 +1,22 @@
+uuid: 3096e0e2-2327-4b27-8fae-c1af85a48869
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.iudevh
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.iudevh.body
+field_name: body
+entity_type: block_content
+bundle: iudevh
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

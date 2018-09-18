@@ -13,9 +13,44 @@ entity_type: user
 bundle: user
 label: WorkTime
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    starthours: 900
+    day: '0'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '1'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '2'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '3'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '4'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '5'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '6'
+    endhours: 1800
+    comment: ''
 default_value_callback: ''
 settings: {  }
 field_type: office_hours
