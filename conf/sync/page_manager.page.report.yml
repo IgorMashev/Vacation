@@ -1,12 +1,22 @@
 uuid: b8a75fde-241a-4c94-9557-a2fb7067622e
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - user
 id: report
 label: Report
 description: ''
 use_admin_theme: false
 path: /report
 access_logic: and
-access_conditions: {  }
+access_conditions:
+  -
+    id: user_role
+    roles:
+      administrator: administrator
+      hr: hr
+    negate: false
+    context_mapping:
+      user: current_user
 parameters: {  }

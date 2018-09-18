@@ -33,6 +33,27 @@
 .region-content {
 	padding-bottom: 10px;
 }
+#auth_box {
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px 34px;
+    max-width: 370px;
+    border-radius: 10px;
+}
+#middle_part {
+    padding: 30px 34px;
+    max-width: 370px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.52), 0 5px 80px rgba(255,255,255,0.32);
+} 
+#middle_part input {
+	width: 100% !important;
+}
 #bottom_part {
   	  a {
           color: $color1;

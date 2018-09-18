@@ -293,47 +293,6 @@
         ]
     },
     {
-        "name": "chi-teck/drupal-code-generator",
-        "version": "1.26.0",
-        "version_normalized": "1.26.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-            "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
-            "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9",
-            "symfony/console": "~2.7|^3",
-            "symfony/filesystem": "~2.7|^3",
-            "twig/twig": "^1.23.1"
-        },
-        "time": "2018-08-06 08:54:16",
-        "bin": [
-            "bin/dcg"
-        ],
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/bootstrap.php"
-            ],
-            "psr-4": {
-                "DrupalCodeGenerator\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "description": "Drupal code generator"
-    },
-    {
         "name": "composer/installers",
         "version": "v1.6.0",
         "version_normalized": "1.6.0.0",
@@ -9783,6 +9742,158 @@
         "support": {
             "source": "http://cgit.drupalcode.org/contribute",
             "issues": "https://www.drupal.org/project/issues/contribute"
+        }
+    },
+    {
+        "name": "chi-teck/drupal-code-generator",
+        "version": "1.26.1",
+        "version_normalized": "1.26.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Chi-teck/drupal-code-generator.git",
+            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/b026b08e0414d85409ad2875202983a3aaa96f64",
+            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/console": "~2.7|^3",
+            "symfony/filesystem": "~2.7|^3",
+            "twig/twig": "^1.23.1"
+        },
+        "time": "2018-09-16 05:32:56",
+        "bin": [
+            "bin/dcg"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/bootstrap.php"
+            ],
+            "psr-4": {
+                "DrupalCodeGenerator\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "description": "Drupal code generator"
+    },
+    {
+        "name": "drupal/user_login_persistent_destination",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/user_login_persistent_destination",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/user_login_persistent_destination-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "da63a3b2c1b3b0b854e144e8f3520e2f86d54cb6"
+        },
+        "require": {
+            "drupal/core": "~8.3"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1493995084",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "agoradesign",
+                "homepage": "https://www.drupal.org/user/1183886"
+            }
+        ],
+        "description": "Ensures a persistent destination parameter on user login page",
+        "homepage": "https://www.drupal.org/project/user_login_persistent_destination",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/user_login_persistent_destination",
+            "issues": "https://www.drupal.org/project/issues/user_login_persistent_destination"
+        }
+    },
+    {
+        "name": "drupal/anonymous_login",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/anonymous_login",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/anonymous_login-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "c862b671726ef83860b9a7ec23b376b0b10a8baa"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1519419245",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "andrew_tspkh",
+                "homepage": "https://www.drupal.org/user/3302731"
+            },
+            {
+                "name": "mstef",
+                "homepage": "https://www.drupal.org/user/107190"
+            }
+        ],
+        "description": "Specify pages that when visited by anonymous users will be forced to login.",
+        "homepage": "https://www.drupal.org/project/anonymous_login",
+        "support": {
+            "source": "http://cgit.drupalcode.org/anonymous_login"
         }
     }
 ]

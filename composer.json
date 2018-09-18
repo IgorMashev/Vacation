@@ -41,7 +41,10 @@
         "drupal/entity_field_condition": "^1.1",
         "drupal/contribute": "^1.0",
         "drupal/field_entity_dependency": "1.x-dev",
-        "drupal/conditional_fields": "^1.0"
+        "drupal/conditional_fields": "^1.0",
+        "drupal/menu_token": "^1.0",
+        "drupal/user_login_persistent_destination": "^1.0",
+        "drupal/anonymous_login": "^1.1"
     },
     "replace": {
         "drupal/core": "^8.5"

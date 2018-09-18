@@ -1,0 +1,21 @@
+uuid: 273736a0-cfce-448f-9e81-bba54e5118d9
+langcode: en
+status: true
+dependencies: {  }
+id: hr
+label: HR
+weight: 3
+is_admin: null
+permissions:
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'administer users'
+  - 'cancel account'
+  - 'change own username'
+  - 'delete any user_name profile'
+  - 'delete own user_name profile'
+  - 'update any user_name profile'
+  - 'view any user_name profile'
+  - 'view own user_name profile'
+  - 'view profile'
+  - 'view user_name profile'
