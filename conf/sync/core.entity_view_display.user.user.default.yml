@@ -14,13 +14,13 @@ dependencies:
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
-    - field.field.user.user.field_office
+    - field.field.user.user.field_non_standard_work_time
+    - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
-    - image.style.large
   module:
     - datetime
     - ds
@@ -39,7 +39,7 @@ third_party_settings:
         - field_github
         - field_drupal_org
       parent_name: ''
-      weight: 11
+      weight: 10
       format_type: tabs
       format_settings:
         label: 'Links to social networks'
@@ -56,46 +56,29 @@ bundle: user
 mode: default
 content:
   field_children:
-    weight: 8
+    weight: 6
     label: above
     settings:
       format: custom
       format_custom_true: ''
-      format_custom_false: 'Haven''t'
+      format_custom_false: 'haven''t'
     third_party_settings:
       ds:
         ds_limit: ''
     type: boolean
     region: content
-  field_company:
-    weight: 13
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   field_date_of_birth:
-    weight: 7
-    label: inline
+    weight: 5
+    label: above
     settings:
-      future_format: '@interval hence'
-      past_format: '@interval'
-      granularity: 1
+      timezone_override: ''
+      date_format: d-m-Y
     third_party_settings: {  }
-    type: datetime_time_ago
-    region: content
-  field_department:
-    weight: 14
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
+    type: datetime_custom
     region: content
   field_drupal_org:
     weight: 22
-    label: inline
+    label: above
     settings:
       trim_length: 80
       url_only: false
@@ -107,7 +90,7 @@ content:
     region: content
   field_facebook:
     weight: 19
-    label: inline
+    label: above
     settings:
       trim_length: 80
       url_only: false
@@ -118,8 +101,8 @@ content:
     type: link
     region: content
   field_full_name:
-    weight: 2
-    label: inline
+    weight: 1
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -127,7 +110,7 @@ content:
     region: content
   field_github:
     weight: 21
-    label: inline
+    label: above
     settings:
       trim_length: 80
       url_only: false
@@ -139,7 +122,7 @@ content:
     region: content
   field_instagram:
     weight: 20
-    label: inline
+    label: above
     settings:
       trim_length: 80
       url_only: false
@@ -150,38 +133,47 @@ content:
     type: link
     region: content
   field_job_title:
-    weight: 4
-    label: inline
+    weight: 3
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_name:
-    weight: 9
-    label: inline
+    weight: 7
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  field_office:
-    weight: 15
-    label: inline
+  field_non_standard_work_time:
+    type: boolean
+    weight: 11
+    region: content
+    label: above
     settings:
-      link: true
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
-    type: entity_reference_label
+  field_office_time:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   field_project:
-    weight: 16
-    label: inline
+    weight: 9
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_slack:
-    weight: 6
-    label: inline
+    weight: 4
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -215,32 +207,31 @@ content:
     type: office_hours
     region: content
   field_year_of_birth:
-    weight: 10
-    label: inline
+    weight: 8
+    label: above
     settings:
-      future_format: '@interval hence'
-      past_format: '@interval'
-      granularity: 1
-    third_party_settings: {  }
-    type: datetime_time_ago
+      timezone_override: ''
+      date_format: d-m-Y
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: datetime_custom
     region: content
-  member_for:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   profile_user_name:
-    weight: 1
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
   user_picture:
     type: image
-    weight: 3
+    weight: 2
     region: content
-    label: inline
+    label: above
     settings:
-      image_style: large
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_company: true
+  field_department: true
+  member_for: true

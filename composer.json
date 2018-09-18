@@ -32,12 +32,16 @@
         "drupal/betterlogin": "^1.2",
         "drupal/social_auth_google": "^2.0",
         "drupal/field_permissions": "^1.0",
-        "drupal/conditional_fields": "^1.0",
         "drush/drush": "^9.4",
         "drupal/rules": "^3.0",
         "drupal/typed_data": "^1.0",
         "drupal/entity_notification": "^1.0",
         "drupal/computed_field": "^2.0",
+        "drupal/menu_token": "^1.0",
+        "drupal/entity_field_condition": "^1.1",
+        "drupal/contribute": "^1.0",
+        "drupal/field_entity_dependency": "1.x-dev",
+        "drupal/conditional_fields": "^1.0",
         "drupal/menu_token": "^1.0",
         "drupal/user_login_persistent_destination": "^1.0",
         "drupal/anonymous_login": "^1.1"
@@ -78,7 +82,7 @@
         },
          "patches": {
             "drupal/address": {
-                "Drupal Addess fix default syncing": "https://www.drupal.org/files/issues/conditional_fields-uninitialized_string_offset_in_conditional_fields_evaluate_dependency-2834358-11.patch"
+                "Drupal Addess fix default syncing": "https://www.drupal.org/files/issues/conditional_fields-uninitialized_string_offset_in_conditional_fields_evaluate_dependency-2834358.patch"
             }
         }
     },

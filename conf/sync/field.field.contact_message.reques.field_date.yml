@@ -1,0 +1,21 @@
+uuid: 249e33d0-d077-4dcc-b550-784f1e680c2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.reques
+    - field.storage.contact_message.field_date
+  module:
+    - date_time_day
+id: contact_message.reques.field_date
+field_name: field_date
+entity_type: contact_message
+bundle: reques
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetimeday

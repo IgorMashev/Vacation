@@ -1,0 +1,80 @@
+uuid: 3e23dbdb-401a-4014-9f65-f7726c3d320f
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.reques
+    - field.field.contact_message.reques.field_date
+    - field.field.contact_message.reques.field_from
+    - field.field.contact_message.reques.field_order
+    - field.field.contact_message.reques.field_to
+  module:
+    - computed_field
+    - date_time_day
+    - datetime
+id: contact_message.reques.default
+targetEntityType: contact_message
+bundle: reques
+mode: default
+content:
+  copy:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date:
+    weight: 54
+    settings: {  }
+    third_party_settings: {  }
+    type: datetimeday_default
+    region: content
+  field_from:
+    weight: 51
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_order:
+    weight: 53
+    settings: {  }
+    third_party_settings: {  }
+    type: computed_number_widget
+    region: content
+  field_to:
+    weight: 52
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  mail:
+    weight: -40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

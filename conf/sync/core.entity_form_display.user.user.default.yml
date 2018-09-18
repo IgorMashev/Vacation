@@ -14,7 +14,8 @@ dependencies:
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
-    - field.field.user.user.field_office
+    - field.field.user.user.field_non_standard_work_time
+    - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_worktime
@@ -94,7 +95,7 @@ content:
     weight: 1
     settings:
       size: 60
-      placeholder: ''
+      placeholder: 'Петренко Петро Петрович'
     third_party_settings: {  }
     type: string_textfield
     region: content
@@ -127,12 +128,12 @@ content:
       placeholder: ''
     third_party_settings:
       conditional_fields:
-        87abc1f8-51cb-4434-8201-1f113222c3af:
+        6582a734-5fd8-4434-a37a-222ec538f853:
           dependee: field_children
           settings:
             state: visible
             condition: checked
-            grouping: AND
+            grouping: OR
             values_set: 1
             value: ''
             values: {  }
@@ -144,6 +145,36 @@ content:
           entity_type: user
           bundle: user
     type: string_textfield
+    region: content
+  field_non_standard_work_time:
+    weight: 12
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_office_time:
+    weight: 14
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        6d067450-d6fa-40a8-ae85-4d95b726df17:
+          dependee: field_non_standard_work_time
+          settings:
+            state: visible
+            condition: '!checked'
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
+    type: options_select
     region: content
   field_project:
     weight: 7
@@ -162,9 +193,26 @@ content:
     type: string_textfield
     region: content
   field_worktime:
-    weight: 12
+    weight: 13
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      conditional_fields:
+        dc44f18f-1e25-4046-aefe-d6e2ca3a1568:
+          dependee: field_non_standard_work_time
+          settings:
+            state: visible
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
     type: office_hours_default
     region: content
   field_year_of_birth:
@@ -172,12 +220,12 @@ content:
     settings: {  }
     third_party_settings:
       conditional_fields:
-        548535e4-5dfd-4236-9c6f-954fbfd972a4:
+        50e8b776-1710-4ec9-a76d-70a974c80247:
           dependee: field_children
           settings:
             state: visible
             condition: checked
-            grouping: AND
+            grouping: XOR
             values_set: 1
             value: ''
             values: {  }
@@ -202,6 +250,5 @@ hidden:
   contact: true
   field_company: true
   field_department: true
-  field_office: true
   language: true
   timezone: true

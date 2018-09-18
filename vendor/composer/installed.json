@@ -23,7 +23,7 @@
             "phpunit/phpunit": "^5.0 || ^4.8.10",
             "squizlabs/php_codesniffer": "^2.3"
         },
-        "time": "2017-12-20T14:37:45+00:00",
+        "time": "2017-12-20 14:37:45",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -82,7 +82,7 @@
             "behat/mink-zombie-driver": "fast and JS-enabled headless driver for any app (requires node.js)",
             "dmore/chrome-mink-driver": "fast and JS-enabled driver for any app (requires chromium or google chrome)"
         },
-        "time": "2018-06-24T20:08:51+00:00",
+        "time": "2018-06-24 20:08:51",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -139,7 +139,7 @@
             "mink/driver-testsuite": "dev-master",
             "symfony/http-kernel": "~2.3|~3.0|~4.0"
         },
-        "time": "2018-05-02T09:25:31+00:00",
+        "time": "2018-05-02 09:25:31",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -196,7 +196,7 @@
         "require-dev": {
             "symfony/phpunit-bridge": "~2.7|~3.0"
         },
-        "time": "2016-03-05T09:04:22+00:00",
+        "time": "2016-03-05 09:04:22",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -252,7 +252,7 @@
         "require-dev": {
             "mink/driver-testsuite": "dev-master"
         },
-        "time": "2018-07-23T10:51:47+00:00",
+        "time": "2018-07-23 10:51:47",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -293,47 +293,6 @@
         ]
     },
     {
-        "name": "chi-teck/drupal-code-generator",
-        "version": "1.26.0",
-        "version_normalized": "1.26.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-            "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
-            "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9",
-            "symfony/console": "~2.7|^3",
-            "symfony/filesystem": "~2.7|^3",
-            "twig/twig": "^1.23.1"
-        },
-        "time": "2018-08-06T08:54:16+00:00",
-        "bin": [
-            "bin/dcg"
-        ],
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/bootstrap.php"
-            ],
-            "psr-4": {
-                "DrupalCodeGenerator\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "description": "Drupal code generator"
-    },
-    {
         "name": "composer/installers",
         "version": "v1.6.0",
         "version_normalized": "1.6.0.0",
@@ -359,7 +318,7 @@
             "composer/composer": "1.0.*@dev",
             "phpunit/phpunit": "^4.8.36"
         },
-        "time": "2018-08-27T06:10:37+00:00",
+        "time": "2018-08-27 06:10:37",
         "type": "composer-plugin",
         "extra": {
             "class": "Composer\\Installers\\Plugin",
@@ -477,7 +436,7 @@
             "phpunit/phpunit": "^4.5 || ^5.0.5",
             "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
         },
-        "time": "2016-08-30T16:08:34+00:00",
+        "time": "2016-08-30 16:08:34",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -548,7 +507,7 @@
             "satooshi/php-coveralls": "^2",
             "squizlabs/php_codesniffer": "^2.7"
         },
-        "time": "2018-08-18T23:51:49+00:00",
+        "time": "2018-08-18 23:51:49",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -604,7 +563,7 @@
         "suggest": {
             "symfony/yaml": "Required to use Consolidation\\Config\\Loader\\YamlConfigLoader"
         },
-        "time": "2018-08-07T22:57:00+00:00",
+        "time": "2018-08-07 22:57:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -655,7 +614,7 @@
             "satooshi/php-coveralls": "^2",
             "squizlabs/php_codesniffer": "2.*"
         },
-        "time": "2018-05-25T18:14:39+00:00",
+        "time": "2018-05-25 18:14:39",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -712,7 +671,7 @@
         "suggest": {
             "symfony/var-dumper": "For using the var_dump formatter"
         },
-        "time": "2018-05-25T18:02:34+00:00",
+        "time": "2018-05-25 18:02:34",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -791,7 +750,7 @@
             "patchwork/jsqueeze": "For minifying JS files in taskMinify",
             "pear/archive_tar": "Allows tar archives to be created and extracted in taskPack and taskExtract, respectively."
         },
-        "time": "2018-08-17T18:44:18+00:00",
+        "time": "2018-08-17 18:44:18",
         "bin": [
             "robo"
         ],
@@ -840,7 +799,7 @@
             "symfony/console": "^2.8|^3|^4",
             "symfony/filesystem": "^2.5|^3|^4"
         },
-        "time": "2018-08-24T17:01:46+00:00",
+        "time": "2018-08-24 17:01:46",
         "bin": [
             "scripts/release"
         ],
@@ -901,7 +860,7 @@
             "symfony/console": "^2.8|^3|^4",
             "symfony/yaml": "~2.3|^3"
         },
-        "time": "2018-08-22T01:07:08+00:00",
+        "time": "2018-08-22 01:07:08",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -948,7 +907,7 @@
         "require": {
             "psr/container": "^1.0"
         },
-        "time": "2017-02-14T19:40:03+00:00",
+        "time": "2017-02-14 19:40:03",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -981,7 +940,7 @@
         "require": {
             "php": ">=5.3.2"
         },
-        "time": "2017-01-20T21:14:22+00:00",
+        "time": "2017-01-20 21:14:22",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1045,7 +1004,7 @@
         "require-dev": {
             "phpunit/phpunit": "@stable"
         },
-        "time": "2014-10-24T07:27:01+00:00",
+        "time": "2014-10-24 07:27:01",
         "type": "project",
         "installation-source": "dist",
         "autoload": {
@@ -1082,7 +1041,7 @@
             "doctrine/cache": "1.*",
             "phpunit/phpunit": "4.*"
         },
-        "time": "2015-08-31T12:32:49+00:00",
+        "time": "2015-08-31 12:32:49",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1160,7 +1119,7 @@
         "suggest": {
             "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
         },
-        "time": "2018-08-21T18:01:43+00:00",
+        "time": "2018-08-21 18:01:43",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1228,7 +1187,7 @@
             "doctrine/coding-standard": "~0.1@dev",
             "phpunit/phpunit": "^5.7"
         },
-        "time": "2017-07-22T10:37:32+00:00",
+        "time": "2017-07-22 10:37:32",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1307,7 +1266,7 @@
             "squizlabs/php_codesniffer": "^3.0",
             "symfony/phpunit-bridge": "^4.0.5"
         },
-        "time": "2018-07-12T21:16:12+00:00",
+        "time": "2018-07-12 21:16:12",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1385,7 +1344,7 @@
             "doctrine/coding-standard": "^4.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2018-06-11T11:59:03+00:00",
+        "time": "2018-06-11 11:59:03",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1457,7 +1416,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.2"
         },
-        "time": "2018-01-09T20:05:19+00:00",
+        "time": "2018-01-09 20:05:19",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1530,7 +1489,7 @@
             "phpunit/phpunit": "^6.2.3",
             "squizlabs/php_codesniffer": "^3.0.2"
         },
-        "time": "2017-07-22T11:58:36+00:00",
+        "time": "2017-07-22 11:58:36",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1579,7 +1538,7 @@
         "require": {
             "php": ">=5.3.2"
         },
-        "time": "2014-09-09T13:34:57+00:00",
+        "time": "2014-09-09 13:34:57",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1648,7 +1607,7 @@
             "phpstan/phpstan": "^0.8",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2018-07-12T12:37:50+00:00",
+        "time": "2018-07-12 12:37:50",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1725,7 +1684,7 @@
             "phpunit/phpunit": "^7.0",
             "squizlabs/php_codesniffer": "^3.0"
         },
-        "time": "2018-06-14T14:45:07+00:00",
+        "time": "2018-06-14 14:45:07",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1855,59 +1814,6 @@
         "support": {
             "source": "http://cgit.drupalcode.org/admin_toolbar",
             "issues": "https://www.drupal.org/project/issues/admin_toolbar"
-        }
-    },
-    {
-        "name": "drupal/anonymous_login",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/anonymous_login",
-            "reference": "8.x-1.1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/anonymous_login-8.x-1.1.zip",
-            "reference": "8.x-1.1",
-            "shasum": "c862b671726ef83860b9a7ec23b376b0b10a8baa"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.1",
-                "datestamp": "1519419245",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "authors": [
-            {
-                "name": "andrew_tspkh",
-                "homepage": "https://www.drupal.org/user/3302731"
-            },
-            {
-                "name": "mstef",
-                "homepage": "https://www.drupal.org/user/107190"
-            }
-        ],
-        "description": "Specify pages that when visited by anonymous users will be forced to login.",
-        "homepage": "https://www.drupal.org/project/anonymous_login",
-        "support": {
-            "source": "http://cgit.drupalcode.org/anonymous_login"
         }
     },
     {
@@ -2111,7 +2017,7 @@
         "require-dev": {
             "phpunit/phpunit": ">=3.7 <6"
         },
-        "time": "2017-03-18T10:28:49+00:00",
+        "time": "2017-03-18 10:28:49",
         "type": "phpcodesniffer-standard",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
@@ -2267,128 +2173,6 @@
         "homepage": "https://www.drupal.org/project/computed_field",
         "support": {
             "source": "http://cgit.drupalcode.org/computed_field"
-        }
-    },
-    {
-        "name": "drupal/conditional_fields",
-        "version": "1.0.0-alpha4",
-        "version_normalized": "1.0.0.0-alpha4",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/conditional_fields",
-            "reference": "8.x-1.0-alpha4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha4.zip",
-            "reference": "8.x-1.0-alpha4",
-            "shasum": "5e13204d5296c63958eacc0028cdb6c7a4d2e3d3"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-alpha4",
-                "datestamp": "1511555675",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Project has not opted into security advisory coverage!"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Adyax",
-                "homepage": "https://www.adyax.com/"
-            },
-            {
-                "name": "axel.rutz",
-                "homepage": "https://www.drupal.org/user/229048"
-            },
-            {
-                "name": "colan",
-                "homepage": "https://www.drupal.org/user/58704"
-            },
-            {
-                "name": "itsekhmistro",
-                "homepage": "https://www.drupal.org/user/928152"
-            },
-            {
-                "name": "peterpoe",
-                "homepage": "https://www.drupal.org/user/55674"
-            }
-        ],
-        "description": "Conditional fields",
-        "homepage": "https://www.drupal.org/project/conditional_fields",
-        "support": {
-            "source": "http://cgit.drupalcode.org/conditional_fields"
-        }
-    },
-    {
-        "name": "drupal/contribute",
-        "version": "5.0.0-beta3",
-        "version_normalized": "5.0.0.0-beta3",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/contribute",
-            "reference": "8.x-5.0-beta3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/contribute-8.x-5.0-beta3.zip",
-            "reference": "8.x-5.0-beta3",
-            "shasum": "8ee067c4b9472b51af90b9481e4302527080129c"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-5.x": "5.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-5.0-beta3",
-                "datestamp": "1515761285",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Beta releases are not covered by Drupal security advisories."
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "adriancid",
-                "homepage": "https://www.drupal.org/user/1962106"
-            },
-            {
-                "name": "jrockowitz",
-                "homepage": "https://www.drupal.org/user/371407"
-            }
-        ],
-        "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
-        "homepage": "https://www.drupal.org/project/contribute",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/contribute",
-            "issues": "https://www.drupal.org/project/issues/contribute"
         }
     },
     {
@@ -4057,59 +3841,6 @@
         }
     },
     {
-        "name": "drupal/user_login_persistent_destination",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/user_login_persistent_destination",
-            "reference": "8.x-1.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/user_login_persistent_destination-8.x-1.0.zip",
-            "reference": "8.x-1.0",
-            "shasum": "da63a3b2c1b3b0b854e144e8f3520e2f86d54cb6"
-        },
-        "require": {
-            "drupal/core": "~8.3"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0",
-                "datestamp": "1493995084",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "agoradesign",
-                "homepage": "https://www.drupal.org/user/1183886"
-            }
-        ],
-        "description": "Ensures a persistent destination parameter on user login page",
-        "homepage": "https://www.drupal.org/project/user_login_persistent_destination",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/user_login_persistent_destination",
-            "issues": "https://www.drupal.org/project/issues/user_login_persistent_destination"
-        }
-    },
-    {
         "name": "drupal/views_accordion",
         "version": "1.1.0",
         "version_normalized": "1.1.0.0",
@@ -4435,7 +4166,7 @@
             "phpunit/phpunit": "^4.8.36|^5.5.4",
             "squizlabs/php_codesniffer": "^2.7"
         },
-        "time": "2018-09-04T17:24:36+00:00",
+        "time": "2018-09-04 17:24:36",
         "bin": [
             "drush"
         ],
@@ -4522,7 +4253,7 @@
         "suggest": {
             "ml/json-ld": "~1.0"
         },
-        "time": "2015-02-27T09:45:49+00:00",
+        "time": "2015-02-27 09:45:49",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -4580,7 +4311,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.8.24"
         },
-        "time": "2017-02-03T22:48:59+00:00",
+        "time": "2017-02-03 22:48:59",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4637,7 +4368,7 @@
         "require-dev": {
             "symfony/phpunit-bridge": "^3.3 || ^4"
         },
-        "time": "2018-06-29T15:13:57+00:00",
+        "time": "2018-06-29 15:13:57",
         "type": "application",
         "extra": {
             "branch-alias": {
@@ -4684,7 +4415,7 @@
             "reference": "a166fd15191aceab89f30c097e694b7cf3db4880",
             "shasum": ""
         },
-        "time": "2018-08-08T23:37:23+00:00",
+        "time": "2018-08-08 23:37:23",
         "bin": [
             "scripts/create-scenario",
             "scripts/dependency-licenses",
@@ -4729,7 +4460,7 @@
             "satooshi/php-coveralls": "^1.0.2|dev-master",
             "squizlabs/php_codesniffer": "^2.7"
         },
-        "time": "2017-12-21T22:14:55+00:00",
+        "time": "2017-12-21 22:14:55",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4779,7 +4510,7 @@
             "satooshi/php-coveralls": "^1.0.2|dev-master",
             "squizlabs/php_codesniffer": "^2.7"
         },
-        "time": "2017-12-16T16:06:03+00:00",
+        "time": "2017-12-16 16:06:03",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4831,7 +4562,7 @@
         "suggest": {
             "psr/log": "Required for using the Log middleware"
         },
-        "time": "2018-04-22T15:46:56+00:00",
+        "time": "2018-04-22 15:46:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4891,7 +4622,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.0"
         },
-        "time": "2016-12-20T10:07:11+00:00",
+        "time": "2016-12-20 10:07:11",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4948,7 +4679,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2017-03-20T17:10:46+00:00",
+        "time": "2017-03-20 17:10:46",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5013,7 +4744,7 @@
             "phpunit/phpunit": "^4.8",
             "satooshi/php-coveralls": "^1.0||^2.0"
         },
-        "time": "2017-06-30T04:02:48+00:00",
+        "time": "2017-06-30 04:02:48",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5076,7 +4807,7 @@
             "phpunit/phpunit": "3.7.*",
             "squizlabs/php_codesniffer": "1.*"
         },
-        "time": "2014-04-08T15:00:19+00:00",
+        "time": "2014-04-08 15:00:19",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5122,7 +4853,7 @@
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~1.5"
         },
-        "time": "2015-04-20T18:58:01+00:00",
+        "time": "2015-04-20 18:58:01",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5167,7 +4898,7 @@
             "symfony/phpunit-bridge": "~2.7",
             "symfony/process": "~2.1"
         },
-        "time": "2017-03-31T07:31:47+00:00",
+        "time": "2017-03-31 07:31:47",
         "type": "phantomjs-api",
         "extra": {
             "branch-alias": {
@@ -5226,7 +4957,7 @@
             "mink/driver-testsuite": "dev-master",
             "phpunit/phpunit": "~4.6"
         },
-        "time": "2016-12-01T10:57:30+00:00",
+        "time": "2016-12-01 10:57:30",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -5290,7 +5021,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.*"
         },
-        "time": "2017-05-10T09:20:27+00:00",
+        "time": "2017-05-10 09:20:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5351,7 +5082,7 @@
             "friendsofphp/php-cs-fixer": "^1.9",
             "phpunit/phpunit": "^4.0"
         },
-        "time": "2018-02-06T08:27:03+00:00",
+        "time": "2018-02-06 08:27:03",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5414,7 +5145,7 @@
             "phpunit/phpunit": "^5.7|^6.0",
             "squizlabs/php_codesniffer": "^2.3|^3.0"
         },
-        "time": "2018-01-13T05:27:58+00:00",
+        "time": "2018-01-13 05:27:58",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5480,7 +5211,7 @@
             "satooshi/php-coveralls": "^2.0",
             "squizlabs/php_codesniffer": "^2.0"
         },
-        "time": "2018-03-19T17:28:55+00:00",
+        "time": "2018-03-19 17:28:55",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5533,7 +5264,7 @@
             "sami/sami": "~2.0",
             "satooshi/php-coveralls": "1.0.*"
         },
-        "time": "2017-09-04T12:26:28+00:00",
+        "time": "2017-09-04 12:26:28",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5597,7 +5328,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.5"
         },
-        "time": "2017-08-01T08:02:14+00:00",
+        "time": "2017-08-01 08:02:14",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5650,7 +5381,7 @@
             "doctrine/common": "^2.6",
             "phpunit/phpunit": "^7.1"
         },
-        "time": "2018-06-11T23:09:50+00:00",
+        "time": "2018-06-11 23:09:50",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5696,7 +5427,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.5 || ^7.0"
         },
-        "time": "2018-07-15T17:25:16+00:00",
+        "time": "2018-07-15 17:25:16",
         "bin": [
             "bin/php-parse"
         ],
@@ -5751,7 +5482,7 @@
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2018-07-04T16:31:37+00:00",
+        "time": "2018-07-04 16:31:37",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5799,7 +5530,7 @@
             "phar-io/version": "^1.0.1",
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-03-05T18:14:27+00:00",
+        "time": "2017-03-05 18:14:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5853,7 +5584,7 @@
         "require": {
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-03-05T17:38:23+00:00",
+        "time": "2017-03-05 17:38:23",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5905,7 +5636,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.6"
         },
-        "time": "2017-09-11T18:02:19+00:00",
+        "time": "2017-09-11 18:02:19",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5966,7 +5697,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^6.4"
         },
-        "time": "2017-11-30T07:14:17+00:00",
+        "time": "2017-11-30 07:14:17",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6016,7 +5747,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^5.2||^4.8.24"
         },
-        "time": "2017-07-14T14:27:02+00:00",
+        "time": "2017-07-14 14:27:02",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6068,7 +5799,7 @@
             "phpspec/phpspec": "^2.5|^3.2",
             "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
         },
-        "time": "2018-08-05T17:53:17+00:00",
+        "time": "2018-08-05 17:53:17",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6140,7 +5871,7 @@
         "suggest": {
             "ext-xdebug": "^2.5.5"
         },
-        "time": "2018-04-06T15:36:58+00:00",
+        "time": "2018-04-06 15:36:58",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6190,7 +5921,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2017-11-27T13:52:08+00:00",
+        "time": "2017-11-27 13:52:08",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6239,7 +5970,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-06-21T13:50:34+00:00",
+        "time": "2015-06-21 13:50:34",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6285,7 +6016,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
         },
-        "time": "2017-02-26T11:10:40+00:00",
+        "time": "2017-02-26 11:10:40",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6337,7 +6068,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.2.4"
         },
-        "time": "2017-11-27T05:48:46+00:00",
+        "time": "2017-11-27 05:48:46",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6417,7 +6148,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "^1.1"
         },
-        "time": "2018-09-08T15:10:43+00:00",
+        "time": "2018-09-08 15:10:43",
         "bin": [
             "phpunit"
         ],
@@ -6482,7 +6213,7 @@
         "suggest": {
             "ext-soap": "*"
         },
-        "time": "2018-08-09T05:50:03+00:00",
+        "time": "2018-08-09 05:50:03",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6531,7 +6262,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2017-02-14T16:28:37+00:00",
+        "time": "2017-02-14 16:28:37",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6582,7 +6313,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-08-06T14:39:51+00:00",
+        "time": "2016-08-06 14:39:51",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6634,7 +6365,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-10-10T12:19:37+00:00",
+        "time": "2016-10-10 12:19:37",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6702,7 +6433,7 @@
             "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
             "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
         },
-        "time": "2018-09-05T11:40:09+00:00",
+        "time": "2018-09-05 11:40:09",
         "bin": [
             "bin/psysh"
         ],
@@ -6762,7 +6493,7 @@
         "require-dev": {
             "phpunit/phpunit": "^5.7 || ^6.0"
         },
-        "time": "2017-03-04T06:30:41+00:00",
+        "time": "2017-03-04 06:30:41",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6811,7 +6542,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.4"
         },
-        "time": "2018-02-01T13:46:46+00:00",
+        "time": "2018-02-01 13:46:46",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6875,7 +6606,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.2"
         },
-        "time": "2017-08-03T08:09:46+00:00",
+        "time": "2017-08-03 08:09:46",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6929,7 +6660,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.1"
         },
-        "time": "2017-07-01T08:51:00+00:00",
+        "time": "2017-07-01 08:51:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6983,7 +6714,7 @@
             "ext-mbstring": "*",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2017-04-03T13:19:02+00:00",
+        "time": "2017-04-03 13:19:02",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7053,7 +6784,7 @@
         "suggest": {
             "ext-uopz": "*"
         },
-        "time": "2017-04-27T15:39:26+00:00",
+        "time": "2017-04-27 15:39:26",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7105,7 +6836,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2017-08-03T12:35:26+00:00",
+        "time": "2017-08-03 12:35:26",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7152,7 +6883,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2017-03-29T09:07:27+00:00",
+        "time": "2017-03-29 09:07:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7199,7 +6930,7 @@
         "require-dev": {
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2017-03-03T06:23:57+00:00",
+        "time": "2017-03-03 06:23:57",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7251,7 +6982,7 @@
         "require": {
             "php": ">=5.6.0"
         },
-        "time": "2015-07-28T20:34:47+00:00",
+        "time": "2015-07-28 20:34:47",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7295,7 +7026,7 @@
         "require": {
             "php": ">=5.6"
         },
-        "time": "2016-10-03T07:35:21+00:00",
+        "time": "2016-10-03 07:35:21",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7346,7 +7077,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2017-05-22T02:43:20+00:00",
+        "time": "2017-05-22 02:43:20",
         "bin": [
             "scripts/phpcs",
             "scripts/phpcbf"
@@ -7425,7 +7156,7 @@
         "require-dev": {
             "silex/silex": "~1.0"
         },
-        "time": "2017-11-18T14:57:29+00:00",
+        "time": "2017-11-18 14:57:29",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7484,7 +7215,7 @@
         "suggest": {
             "symfony/event-dispatcher": "DynamicRouter can optionally trigger an event at the start of matching. Minimal version (~2.1)"
         },
-        "time": "2017-05-09T08:10:41+00:00",
+        "time": "2017-05-09 08:10:41",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7540,7 +7271,7 @@
         "suggest": {
             "symfony/process": ""
         },
-        "time": "2018-07-26T09:10:45+00:00",
+        "time": "2018-07-26 09:10:45",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7598,7 +7329,7 @@
         "suggest": {
             "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
         },
-        "time": "2018-07-26T11:19:56+00:00",
+        "time": "2018-07-26 11:19:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7664,7 +7395,7 @@
         "suggest": {
             "symfony/yaml": "To use the yaml reference dumper"
         },
-        "time": "2018-07-26T11:19:56+00:00",
+        "time": "2018-07-26 11:19:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7735,7 +7466,7 @@
             "symfony/lock": "",
             "symfony/process": ""
         },
-        "time": "2018-07-26T11:19:56+00:00",
+        "time": "2018-07-26 11:19:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7786,7 +7517,7 @@
         "require": {
             "php": "^5.5.9|>=7.0.8"
         },
-        "time": "2018-07-26T09:06:28+00:00",
+        "time": "2018-07-26 09:06:28",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7848,7 +7579,7 @@
         "require-dev": {
             "symfony/http-kernel": "~2.8|~3.0|~4.0"
         },
-        "time": "2018-08-03T10:42:44+00:00",
+        "time": "2018-08-03 10:42:44",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7921,7 +7652,7 @@
             "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
             "symfony/yaml": ""
         },
-        "time": "2018-08-08T11:42:34+00:00",
+        "time": "2018-08-08 11:42:34",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -7980,7 +7711,7 @@
         "suggest": {
             "symfony/css-selector": ""
         },
-        "time": "2018-07-26T11:00:49+00:00",
+        "time": "2018-07-26 11:00:49",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8045,7 +7776,7 @@
             "symfony/dependency-injection": "",
             "symfony/http-kernel": ""
         },
-        "time": "2018-07-26T09:06:28+00:00",
+        "time": "2018-07-26 09:06:28",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8097,7 +7828,7 @@
             "php": "^5.5.9|>=7.0.8",
             "symfony/polyfill-ctype": "~1.8"
         },
-        "time": "2018-08-10T07:29:05+00:00",
+        "time": "2018-08-10 07:29:05",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8148,7 +7879,7 @@
         "require": {
             "php": "^5.5.9|>=7.0.8"
         },
-        "time": "2018-07-26T11:19:56+00:00",
+        "time": "2018-07-26 11:19:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8204,7 +7935,7 @@
         "require-dev": {
             "symfony/expression-language": "~2.8|~3.0|~4.0"
         },
-        "time": "2018-08-27T17:45:33+00:00",
+        "time": "2018-08-27 17:45:33",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8295,7 +8026,7 @@
             "symfony/finder": "",
             "symfony/var-dumper": ""
         },
-        "time": "2018-08-28T06:06:12+00:00",
+        "time": "2018-08-28 06:06:12",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8353,7 +8084,7 @@
             "ext-zip": "Zip support is required when using bin/simple-phpunit",
             "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
         },
-        "time": "2018-08-27T15:17:06+00:00",
+        "time": "2018-08-27 15:17:06",
         "bin": [
             "bin/simple-phpunit"
         ],
@@ -8417,7 +8148,7 @@
         "suggest": {
             "ext-ctype": "For best performance"
         },
-        "time": "2018-08-06T14:22:27+00:00",
+        "time": "2018-08-06 14:22:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8477,7 +8208,7 @@
         "suggest": {
             "ext-iconv": "For best performance"
         },
-        "time": "2018-08-06T14:22:27+00:00",
+        "time": "2018-08-06 14:22:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8538,7 +8269,7 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2018-08-06T14:22:27+00:00",
+        "time": "2018-08-06 14:22:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8597,7 +8328,7 @@
             "paragonie/random_compat": "~1.0|~2.0|~9.99",
             "php": ">=5.3.3"
         },
-        "time": "2018-08-06T14:22:27+00:00",
+        "time": "2018-08-06 14:22:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8657,7 +8388,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2018-08-06T14:22:27+00:00",
+        "time": "2018-08-06 14:22:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8714,7 +8445,7 @@
         "require": {
             "php": "^5.5.9|>=7.0.8"
         },
-        "time": "2018-08-03T10:42:44+00:00",
+        "time": "2018-08-03 10:42:44",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8775,7 +8506,7 @@
             "psr/http-message-implementation": "To use the HttpFoundation factory",
             "zendframework/zend-diactoros": "To use the Zend Diactoros factory"
         },
-        "time": "2018-08-30T16:28:28+00:00",
+        "time": "2018-08-30 16:28:28",
         "type": "symfony-bridge",
         "extra": {
             "branch-alias": {
@@ -8850,7 +8581,7 @@
             "symfony/http-foundation": "For using a Symfony Request object",
             "symfony/yaml": "For using the YAML loader"
         },
-        "time": "2018-07-26T11:19:56+00:00",
+        "time": "2018-07-26 11:19:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8937,7 +8668,7 @@
             "symfony/property-info": "To deserialize relations.",
             "symfony/yaml": "For using the default YAML mapping loader."
         },
-        "time": "2018-07-26T11:58:24+00:00",
+        "time": "2018-07-26 11:58:24",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9007,7 +8738,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2018-07-26T11:19:56+00:00",
+        "time": "2018-07-26 11:19:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9094,7 +8825,7 @@
             "symfony/property-access": "For accessing properties within comparison constraints",
             "symfony/yaml": ""
         },
-        "time": "2018-08-07T09:33:53+00:00",
+        "time": "2018-08-07 09:33:53",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9161,7 +8892,7 @@
             "ext-intl": "To show region name in time zone dump",
             "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
         },
-        "time": "2018-08-02T09:24:26+00:00",
+        "time": "2018-08-02 09:24:26",
         "bin": [
             "Resources/bin/var-dump-server"
         ],
@@ -9232,7 +8963,7 @@
         "suggest": {
             "symfony/console": "For validating YAML files using the lint command"
         },
-        "time": "2018-08-10T07:34:36+00:00",
+        "time": "2018-08-10 07:34:36",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9286,7 +9017,7 @@
             "ext-xmlwriter": "*",
             "php": "^7.0"
         },
-        "time": "2017-04-07T12:08:54+00:00",
+        "time": "2017-04-07 12:08:54",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -9331,7 +9062,7 @@
             "symfony/debug": "^2.7",
             "symfony/phpunit-bridge": "^3.3"
         },
-        "time": "2018-07-13T07:12:17+00:00",
+        "time": "2018-07-13 07:12:17",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9394,7 +9125,7 @@
             "mikey179/vfsstream": "^1.6",
             "phpunit/phpunit": "^4.8"
         },
-        "time": "2017-10-24T08:12:11+00:00",
+        "time": "2017-10-24 08:12:11",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -9436,7 +9167,7 @@
             "phpunit/phpunit": "^4.6",
             "sebastian/version": "^1.0.1"
         },
-        "time": "2018-01-29T19:49:41+00:00",
+        "time": "2018-01-29 19:49:41",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9489,7 +9220,7 @@
             "phpunit/phpunit": "^4.6",
             "sebastian/version": "^1.0.1"
         },
-        "time": "2015-12-17T08:42:14+00:00",
+        "time": "2015-12-17 08:42:14",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9539,7 +9270,7 @@
             "phpunit/phpunit": "~4.8|~5.0",
             "squizlabs/php_codesniffer": "~2.1.0"
         },
-        "time": "2017-04-25T02:31:25+00:00",
+        "time": "2017-04-25 02:31:25",
         "type": "composer-plugin",
         "extra": {
             "branch-alias": {
@@ -9594,7 +9325,7 @@
             "phpunit/phpunit": "^5.7.16 || ^6.0.8 || ^7.2.7",
             "zendframework/zend-coding-standard": "~1.0"
         },
-        "time": "2018-09-05T19:29:37+00:00",
+        "time": "2018-09-05 19:29:37",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9653,7 +9384,7 @@
             "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
             "zendframework/zend-coding-standard": "~1.0.0"
         },
-        "time": "2018-04-25T15:48:53+00:00",
+        "time": "2018-04-25 15:48:53",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9716,7 +9447,7 @@
             "zendframework/zend-servicemanager": "Zend\\ServiceManager component, for easily extending ExtensionManager implementations",
             "zendframework/zend-validator": "Zend\\Validator component, for validating email addresses used in Atom feeds and entries when using the Writer subcomponent"
         },
-        "time": "2018-08-01T13:53:20+00:00",
+        "time": "2018-08-01 13:53:20",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9764,7 +9495,7 @@
             "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
             "zendframework/zend-coding-standard": "~1.0.0"
         },
-        "time": "2018-08-28T21:34:05+00:00",
+        "time": "2018-08-28 21:34:05",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -9788,5 +9519,381 @@
             "stdlib",
             "zf"
         ]
+    },
+    {
+        "name": "drupal/entity_field_condition",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/entity_field_condition",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/entity_field_condition-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "161f7eeb868cbc310eb07f35242a2720277b3ca2"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1480718584",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "FluxSauce",
+                "homepage": "https://www.drupal.org/user/1386596"
+            }
+        ],
+        "description": "Provides a Condition plugin that checks to see if a particular entity bundle has a field with a specific value.",
+        "homepage": "https://www.drupal.org/project/entity_field_condition",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/entity_field_condition",
+            "issues": "https://www.drupal.org/project/issues/entity_field_condition"
+        }
+    },
+    {
+        "name": "drupal/field_entity_dependency",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/field_entity_dependency",
+            "reference": "cb6372e0b0203f96a0f3d3ba82c3ff7110ca3a97"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x-dev",
+                "datestamp": "1509139384",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Mauricio-NM",
+                "homepage": "https://www.drupal.org/user/3502121"
+            },
+            {
+                "name": "alarez",
+                "homepage": "https://www.drupal.org/user/403881"
+            }
+        ],
+        "description": "This module allows to create dependent select field.",
+        "homepage": "https://www.drupal.org/project/field_entity_dependency",
+        "support": {
+            "source": "http://cgit.drupalcode.org/field_entity_dependency"
+        }
+    },
+    {
+        "name": "drupal/conditional_fields",
+        "version": "1.0.0-alpha4",
+        "version_normalized": "1.0.0.0-alpha4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/conditional_fields",
+            "reference": "8.x-1.0-alpha4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha4.zip",
+            "reference": "8.x-1.0-alpha4",
+            "shasum": "5e13204d5296c63958eacc0028cdb6c7a4d2e3d3"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha4",
+                "datestamp": "1511555675",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Adyax",
+                "homepage": "https://www.adyax.com/"
+            },
+            {
+                "name": "axel.rutz",
+                "homepage": "https://www.drupal.org/user/229048"
+            },
+            {
+                "name": "colan",
+                "homepage": "https://www.drupal.org/user/58704"
+            },
+            {
+                "name": "itsekhmistro",
+                "homepage": "https://www.drupal.org/user/928152"
+            },
+            {
+                "name": "peterpoe",
+                "homepage": "https://www.drupal.org/user/55674"
+            }
+        ],
+        "description": "Conditional fields",
+        "homepage": "https://www.drupal.org/project/conditional_fields",
+        "support": {
+            "source": "http://cgit.drupalcode.org/conditional_fields"
+        }
+    },
+    {
+        "name": "drupal/contribute",
+        "version": "1.0.0-beta7",
+        "version_normalized": "1.0.0.0-beta7",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/contribute",
+            "reference": "8.x-1.0-beta7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta7.zip",
+            "reference": "8.x-1.0-beta7",
+            "shasum": "f31aaf1294b9504b0057f59ef131d5936f413ede"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta7",
+                "datestamp": "1518634080",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Adrian Cid Almaguer (adriancid)",
+                "homepage": "https://www.drupal.org/u/adriancid",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jacob Rockowitz (jrockowitz)",
+                "homepage": "https://www.drupal.org/u/jrockowitz",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
+        "homepage": "https://www.drupal.org/project/contribute",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/contribute",
+            "issues": "https://www.drupal.org/project/issues/contribute"
+        }
+    },
+    {
+        "name": "chi-teck/drupal-code-generator",
+        "version": "1.26.1",
+        "version_normalized": "1.26.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Chi-teck/drupal-code-generator.git",
+            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/b026b08e0414d85409ad2875202983a3aaa96f64",
+            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/console": "~2.7|^3",
+            "symfony/filesystem": "~2.7|^3",
+            "twig/twig": "^1.23.1"
+        },
+        "time": "2018-09-16 05:32:56",
+        "bin": [
+            "bin/dcg"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/bootstrap.php"
+            ],
+            "psr-4": {
+                "DrupalCodeGenerator\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "description": "Drupal code generator"
+    },
+    {
+        "name": "drupal/user_login_persistent_destination",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/user_login_persistent_destination",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/user_login_persistent_destination-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "da63a3b2c1b3b0b854e144e8f3520e2f86d54cb6"
+        },
+        "require": {
+            "drupal/core": "~8.3"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1493995084",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "agoradesign",
+                "homepage": "https://www.drupal.org/user/1183886"
+            }
+        ],
+        "description": "Ensures a persistent destination parameter on user login page",
+        "homepage": "https://www.drupal.org/project/user_login_persistent_destination",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/user_login_persistent_destination",
+            "issues": "https://www.drupal.org/project/issues/user_login_persistent_destination"
+        }
+    },
+    {
+        "name": "drupal/anonymous_login",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/anonymous_login",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/anonymous_login-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "c862b671726ef83860b9a7ec23b376b0b10a8baa"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1519419245",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "andrew_tspkh",
+                "homepage": "https://www.drupal.org/user/3302731"
+            },
+            {
+                "name": "mstef",
+                "homepage": "https://www.drupal.org/user/107190"
+            }
+        ],
+        "description": "Specify pages that when visited by anonymous users will be forced to login.",
+        "homepage": "https://www.drupal.org/project/anonymous_login",
+        "support": {
+            "source": "http://cgit.drupalcode.org/anonymous_login"
+        }
     }
 ]
