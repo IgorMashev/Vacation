@@ -293,6 +293,52 @@
         ]
     },
     {
+        "name": "chi-teck/drupal-code-generator",
+        "version": "1.26.1",
+        "version_normalized": "1.26.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Chi-teck/drupal-code-generator.git",
+            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/b026b08e0414d85409ad2875202983a3aaa96f64",
+            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/console": "~2.7|^3",
+            "symfony/filesystem": "~2.7|^3",
+            "twig/twig": "^1.23.1"
+        },
+        "time": "2018-09-16 05:32:56",
+        "bin": [
+            "bin/dcg"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/bootstrap.php"
+            ],
+            "psr-4": {
+                "DrupalCodeGenerator\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "description": "Drupal code generator"
+    },
+    {
         "name": "composer/installers",
         "version": "v1.6.0",
         "version_normalized": "1.6.0.0",
@@ -1817,6 +1863,112 @@
         }
     },
     {
+        "name": "drupal/age_field_formatter",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/age_field_formatter",
+            "reference": "8.x-2.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/age_field_formatter-8.x-2.0.zip",
+            "reference": "8.x-2.0",
+            "shasum": "ff7ba5288f499dc94f53ec7555c417c2d2559174"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0",
+                "datestamp": "1512000784",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "xmacinfo",
+                "homepage": "https://www.drupal.org/user/12131"
+            }
+        ],
+        "description": "Takes the value from a date field and calculate and display the age.",
+        "homepage": "https://www.drupal.org/project/age_field_formatter",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/age_field_formatter",
+            "issues": "https://www.drupal.org/project/issues/age_field_formatter"
+        }
+    },
+    {
+        "name": "drupal/anonymous_login",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/anonymous_login",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/anonymous_login-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "c862b671726ef83860b9a7ec23b376b0b10a8baa"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1519419245",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "andrew_tspkh",
+                "homepage": "https://www.drupal.org/user/3302731"
+            },
+            {
+                "name": "mstef",
+                "homepage": "https://www.drupal.org/user/107190"
+            }
+        ],
+        "description": "Specify pages that when visited by anonymous users will be forced to login.",
+        "homepage": "https://www.drupal.org/project/anonymous_login",
+        "support": {
+            "source": "http://cgit.drupalcode.org/anonymous_login"
+        }
+    },
+    {
         "name": "drupal/betterlogin",
         "version": "1.2.0",
         "version_normalized": "1.2.0.0",
@@ -2173,6 +2325,130 @@
         "homepage": "https://www.drupal.org/project/computed_field",
         "support": {
             "source": "http://cgit.drupalcode.org/computed_field"
+        }
+    },
+    {
+        "name": "drupal/conditional_fields",
+        "version": "1.0.0-alpha4",
+        "version_normalized": "1.0.0.0-alpha4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/conditional_fields",
+            "reference": "8.x-1.0-alpha4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha4.zip",
+            "reference": "8.x-1.0-alpha4",
+            "shasum": "5e13204d5296c63958eacc0028cdb6c7a4d2e3d3"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha4",
+                "datestamp": "1511555675",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Adyax",
+                "homepage": "https://www.adyax.com/"
+            },
+            {
+                "name": "axel.rutz",
+                "homepage": "https://www.drupal.org/user/229048"
+            },
+            {
+                "name": "colan",
+                "homepage": "https://www.drupal.org/user/58704"
+            },
+            {
+                "name": "itsekhmistro",
+                "homepage": "https://www.drupal.org/user/928152"
+            },
+            {
+                "name": "peterpoe",
+                "homepage": "https://www.drupal.org/user/55674"
+            }
+        ],
+        "description": "Conditional fields",
+        "homepage": "https://www.drupal.org/project/conditional_fields",
+        "support": {
+            "source": "http://cgit.drupalcode.org/conditional_fields"
+        }
+    },
+    {
+        "name": "drupal/contribute",
+        "version": "1.0.0-beta7",
+        "version_normalized": "1.0.0.0-beta7",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/contribute",
+            "reference": "8.x-1.0-beta7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta7.zip",
+            "reference": "8.x-1.0-beta7",
+            "shasum": "f31aaf1294b9504b0057f59ef131d5936f413ede"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta7",
+                "datestamp": "1518634080",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Adrian Cid Almaguer (adriancid)",
+                "homepage": "https://www.drupal.org/u/adriancid",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jacob Rockowitz (jrockowitz)",
+                "homepage": "https://www.drupal.org/u/jrockowitz",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
+        "homepage": "https://www.drupal.org/project/contribute",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/contribute",
+            "issues": "https://www.drupal.org/project/issues/contribute"
         }
     },
     {
@@ -2656,6 +2932,59 @@
         }
     },
     {
+        "name": "drupal/entity_field_condition",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/entity_field_condition",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/entity_field_condition-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "161f7eeb868cbc310eb07f35242a2720277b3ca2"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1480718584",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "FluxSauce",
+                "homepage": "https://www.drupal.org/user/1386596"
+            }
+        ],
+        "description": "Provides a Condition plugin that checks to see if a particular entity bundle has a field with a specific value.",
+        "homepage": "https://www.drupal.org/project/entity_field_condition",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/entity_field_condition",
+            "issues": "https://www.drupal.org/project/issues/entity_field_condition"
+        }
+    },
+    {
         "name": "drupal/entity_notification",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
@@ -2761,6 +3090,53 @@
         "homepage": "https://www.drupal.org/project/entity_reference_revisions",
         "support": {
             "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+        }
+    },
+    {
+        "name": "drupal/field_entity_dependency",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/field_entity_dependency",
+            "reference": "cb6372e0b0203f96a0f3d3ba82c3ff7110ca3a97"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x-dev",
+                "datestamp": "1509139384",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Mauricio-NM",
+                "homepage": "https://www.drupal.org/user/3502121"
+            },
+            {
+                "name": "alarez",
+                "homepage": "https://www.drupal.org/user/403881"
+            }
+        ],
+        "description": "This module allows to create dependent select field.",
+        "homepage": "https://www.drupal.org/project/field_entity_dependency",
+        "support": {
+            "source": "http://cgit.drupalcode.org/field_entity_dependency"
         }
     },
     {
@@ -3838,6 +4214,59 @@
         "homepage": "https://www.drupal.org/project/typed_data",
         "support": {
             "source": "http://cgit.drupalcode.org/typed_data"
+        }
+    },
+    {
+        "name": "drupal/user_login_persistent_destination",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/user_login_persistent_destination",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/user_login_persistent_destination-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "da63a3b2c1b3b0b854e144e8f3520e2f86d54cb6"
+        },
+        "require": {
+            "drupal/core": "~8.3"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1493995084",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "agoradesign",
+                "homepage": "https://www.drupal.org/user/1183886"
+            }
+        ],
+        "description": "Ensures a persistent destination parameter on user login page",
+        "homepage": "https://www.drupal.org/project/user_login_persistent_destination",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/user_login_persistent_destination",
+            "issues": "https://www.drupal.org/project/issues/user_login_persistent_destination"
         }
     },
     {
@@ -9519,434 +9948,5 @@
             "stdlib",
             "zf"
         ]
-    },
-    {
-        "name": "drupal/entity_field_condition",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/entity_field_condition",
-            "reference": "8.x-1.1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/entity_field_condition-8.x-1.1.zip",
-            "reference": "8.x-1.1",
-            "shasum": "161f7eeb868cbc310eb07f35242a2720277b3ca2"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.1",
-                "datestamp": "1480718584",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "FluxSauce",
-                "homepage": "https://www.drupal.org/user/1386596"
-            }
-        ],
-        "description": "Provides a Condition plugin that checks to see if a particular entity bundle has a field with a specific value.",
-        "homepage": "https://www.drupal.org/project/entity_field_condition",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/entity_field_condition",
-            "issues": "https://www.drupal.org/project/issues/entity_field_condition"
-        }
-    },
-    {
-        "name": "drupal/field_entity_dependency",
-        "version": "dev-1.x",
-        "version_normalized": "dev-1.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/field_entity_dependency",
-            "reference": "cb6372e0b0203f96a0f3d3ba82c3ff7110ca3a97"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.x-dev",
-                "datestamp": "1509139384",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Dev releases are not covered by Drupal security advisories."
-                }
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "authors": [
-            {
-                "name": "Mauricio-NM",
-                "homepage": "https://www.drupal.org/user/3502121"
-            },
-            {
-                "name": "alarez",
-                "homepage": "https://www.drupal.org/user/403881"
-            }
-        ],
-        "description": "This module allows to create dependent select field.",
-        "homepage": "https://www.drupal.org/project/field_entity_dependency",
-        "support": {
-            "source": "http://cgit.drupalcode.org/field_entity_dependency"
-        }
-    },
-    {
-        "name": "drupal/conditional_fields",
-        "version": "1.0.0-alpha4",
-        "version_normalized": "1.0.0.0-alpha4",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/conditional_fields",
-            "reference": "8.x-1.0-alpha4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha4.zip",
-            "reference": "8.x-1.0-alpha4",
-            "shasum": "5e13204d5296c63958eacc0028cdb6c7a4d2e3d3"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-alpha4",
-                "datestamp": "1511555675",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Project has not opted into security advisory coverage!"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Adyax",
-                "homepage": "https://www.adyax.com/"
-            },
-            {
-                "name": "axel.rutz",
-                "homepage": "https://www.drupal.org/user/229048"
-            },
-            {
-                "name": "colan",
-                "homepage": "https://www.drupal.org/user/58704"
-            },
-            {
-                "name": "itsekhmistro",
-                "homepage": "https://www.drupal.org/user/928152"
-            },
-            {
-                "name": "peterpoe",
-                "homepage": "https://www.drupal.org/user/55674"
-            }
-        ],
-        "description": "Conditional fields",
-        "homepage": "https://www.drupal.org/project/conditional_fields",
-        "support": {
-            "source": "http://cgit.drupalcode.org/conditional_fields"
-        }
-    },
-    {
-        "name": "drupal/contribute",
-        "version": "1.0.0-beta7",
-        "version_normalized": "1.0.0.0-beta7",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/contribute",
-            "reference": "8.x-1.0-beta7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta7.zip",
-            "reference": "8.x-1.0-beta7",
-            "shasum": "f31aaf1294b9504b0057f59ef131d5936f413ede"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-beta7",
-                "datestamp": "1518634080",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Beta releases are not covered by Drupal security advisories."
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Adrian Cid Almaguer (adriancid)",
-                "homepage": "https://www.drupal.org/u/adriancid",
-                "role": "Maintainer"
-            },
-            {
-                "name": "Jacob Rockowitz (jrockowitz)",
-                "homepage": "https://www.drupal.org/u/jrockowitz",
-                "role": "Maintainer"
-            }
-        ],
-        "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
-        "homepage": "https://www.drupal.org/project/contribute",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/contribute",
-            "issues": "https://www.drupal.org/project/issues/contribute"
-        }
-    },
-    {
-        "name": "chi-teck/drupal-code-generator",
-        "version": "1.26.1",
-        "version_normalized": "1.26.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/b026b08e0414d85409ad2875202983a3aaa96f64",
-            "reference": "b026b08e0414d85409ad2875202983a3aaa96f64",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9",
-            "symfony/console": "~2.7|^3",
-            "symfony/filesystem": "~2.7|^3",
-            "twig/twig": "^1.23.1"
-        },
-        "time": "2018-09-16 05:32:56",
-        "bin": [
-            "bin/dcg"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/bootstrap.php"
-            ],
-            "psr-4": {
-                "DrupalCodeGenerator\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "description": "Drupal code generator"
-    },
-    {
-        "name": "drupal/user_login_persistent_destination",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/user_login_persistent_destination",
-            "reference": "8.x-1.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/user_login_persistent_destination-8.x-1.0.zip",
-            "reference": "8.x-1.0",
-            "shasum": "da63a3b2c1b3b0b854e144e8f3520e2f86d54cb6"
-        },
-        "require": {
-            "drupal/core": "~8.3"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0",
-                "datestamp": "1493995084",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "agoradesign",
-                "homepage": "https://www.drupal.org/user/1183886"
-            }
-        ],
-        "description": "Ensures a persistent destination parameter on user login page",
-        "homepage": "https://www.drupal.org/project/user_login_persistent_destination",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/user_login_persistent_destination",
-            "issues": "https://www.drupal.org/project/issues/user_login_persistent_destination"
-        }
-    },
-    {
-        "name": "drupal/anonymous_login",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/anonymous_login",
-            "reference": "8.x-1.1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/anonymous_login-8.x-1.1.zip",
-            "reference": "8.x-1.1",
-            "shasum": "c862b671726ef83860b9a7ec23b376b0b10a8baa"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.1",
-                "datestamp": "1519419245",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "authors": [
-            {
-                "name": "andrew_tspkh",
-                "homepage": "https://www.drupal.org/user/3302731"
-            },
-            {
-                "name": "mstef",
-                "homepage": "https://www.drupal.org/user/107190"
-            }
-        ],
-        "description": "Specify pages that when visited by anonymous users will be forced to login.",
-        "homepage": "https://www.drupal.org/project/anonymous_login",
-        "support": {
-            "source": "http://cgit.drupalcode.org/anonymous_login"
-        }
-    },
-    {
-        "name": "drupal/age_field_formatter",
-        "version": "2.0.0",
-        "version_normalized": "2.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/age_field_formatter",
-            "reference": "8.x-2.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/age_field_formatter-8.x-2.0.zip",
-            "reference": "8.x-2.0",
-            "shasum": "ff7ba5288f499dc94f53ec7555c417c2d2559174"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-2.x": "2.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-2.0",
-                "datestamp": "1512000784",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "xmacinfo",
-                "homepage": "https://www.drupal.org/user/12131"
-            }
-        ],
-        "description": "Takes the value from a date field and calculate and display the age.",
-        "homepage": "https://www.drupal.org/project/age_field_formatter",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/age_field_formatter",
-            "issues": "https://www.drupal.org/project/issues/age_field_formatter"
-        }
     }
 ]
