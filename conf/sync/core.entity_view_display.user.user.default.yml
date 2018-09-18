@@ -199,13 +199,6 @@ content:
     third_party_settings: {  }
     region: content
     type: string
-  field_work_hours:
-    weight: 15
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_user_status:
     weight: 24
     label: above
@@ -213,6 +206,13 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_work_hours:
+    weight: 15
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   field_worktime:
     weight: 9

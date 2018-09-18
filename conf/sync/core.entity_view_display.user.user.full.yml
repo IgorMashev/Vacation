@@ -234,4 +234,5 @@ hidden:
   field_non_standard_work_time: true
   field_office: true
   field_user_status: true
+  field_work_hours: true
   member_for: true

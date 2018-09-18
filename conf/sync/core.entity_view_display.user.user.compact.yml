@@ -49,6 +49,7 @@ hidden:
   field_project: true
   field_slack: true
   field_user_status: true
+  field_work_hours: true
   field_worktime: true
   field_year_of_birth: true
   member_for: true
