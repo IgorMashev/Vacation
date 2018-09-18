@@ -16,7 +16,6 @@ dependencies:
     - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
     - field.field.user.user.field_office
-    - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_user_status
@@ -166,13 +165,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_office_time:
-    weight: 13
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
     region: content
   field_project:
     weight: 9

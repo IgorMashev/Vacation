@@ -16,9 +16,10 @@ dependencies:
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
-    - field.field.user.user.field_office_time
+    - field.field.user.user.field_office
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
+    - field.field.user.user.field_user_status
     - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
@@ -44,9 +45,10 @@ hidden:
   field_job_title: true
   field_name: true
   field_non_standard_work_time: true
-  field_office_time: true
+  field_office: true
   field_project: true
   field_slack: true
+  field_user_status: true
   field_worktime: true
   field_year_of_birth: true
   member_for: true

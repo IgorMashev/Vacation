@@ -17,7 +17,6 @@ dependencies:
     - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
     - field.field.user.user.field_office
-    - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_user_status
@@ -234,6 +233,5 @@ content:
 hidden:
   field_non_standard_work_time: true
   field_office: true
-  field_office_time: true
   field_user_status: true
   member_for: true

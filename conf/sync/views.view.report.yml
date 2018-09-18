@@ -716,17 +716,19 @@ display:
           operator: '='
           value: '1'
           group: 1
-          exposed: true
+          exposed: false
           expose:
+            operator_id: ''
+            label: Active
+            description: null
             use_operator: false
             operator: status_op
             identifier: status
-            label: Active
-            description: null
+            required: true
             remember: false
             multiple: false
-            required: true
-            operator_id: ''
+            remember_roles:
+              authenticated: authenticated
           is_grouped: false
           group_info:
             label: ''
