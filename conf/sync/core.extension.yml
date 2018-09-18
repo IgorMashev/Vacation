@@ -39,6 +39,7 @@ module:
   help: 0
   history: 0
   image: 0
+  inline_form_errors: 0
   kint: 0
   layout_discovery: 0
   libraries: 0
@@ -83,7 +84,6 @@ module:
   contribute: 1
   ds: 1
   menu_link_content: 1
-  webform_bootstrap: 1
   views: 10
   paragraphs: 11
   standard: 1000
