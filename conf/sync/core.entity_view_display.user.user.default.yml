@@ -24,7 +24,7 @@ dependencies:
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
   module:
-    - datetime
+    - age_field_formatter
     - ds
     - field_group
     - image
@@ -73,10 +73,10 @@ content:
     weight: 5
     label: above
     settings:
-      timezone_override: ''
-      date_format: d-m-Y
+      age_format: age_only
+      year_suffix: '1'
     third_party_settings: {  }
-    type: datetime_custom
+    type: age_field_formatter
     region: content
   field_drupal_org:
     weight: 22
@@ -228,12 +228,12 @@ content:
     weight: 8
     label: above
     settings:
-      timezone_override: ''
-      date_format: d-m-Y
+      age_format: birthdate
+      year_suffix: '1'
     third_party_settings:
       ds:
         ds_limit: ''
-    type: datetime_custom
+    type: age_field_formatter
     region: content
   profile_user_name:
     weight: 0
