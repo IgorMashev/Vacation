@@ -1,0 +1,25 @@
+uuid: 84408fda-5165-4586-9675-3979b4b1f2c6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer:3c1b3c3a-1a5d-4cc4-8569-4da23fd93786'
+  module:
+    - block_content
+  theme:
+    - bootstrap_sass
+id: drupalfooter
+theme: bootstrap_sass
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:3c1b3c3a-1a5d-4cc4-8569-4da23fd93786'
+settings:
+  id: 'block_content:3c1b3c3a-1a5d-4cc4-8569-4da23fd93786'
+  label: 'drupal footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

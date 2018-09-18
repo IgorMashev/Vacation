@@ -15,9 +15,11 @@ dependencies:
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
+    - field.field.user.user.field_office
     - field.field.user.user.field_office_time
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
+    - field.field.user.user.field_user_status
     - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
@@ -153,6 +155,12 @@ content:
     third_party_settings: {  }
     type: boolean_checkbox
     region: content
+  field_office:
+    weight: 19
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_office_time:
     weight: 14
     settings: {  }
@@ -191,6 +199,15 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_user_status:
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_worktime:
     weight: 13
