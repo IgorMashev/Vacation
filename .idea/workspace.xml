@@ -310,6 +310,7 @@
       <change afterPath="$PROJECT_DIR$/vendor/zendframework/zend-feed/src/Writer/Extension/GooglePlayPodcast/Renderer/Feed.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ConsoleHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/sync/block.block.bootstrap_sass_local_tasks.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/block.block.bootstrap_sass_local_tasks.yml" afterDir="false" />
@@ -386,7 +387,7 @@
     <session id="1304068712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -1777,7 +1778,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4674000" />
+    <option name="totallyTimeSpent" value="5265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="106" width="1366" height="740" extended-state="1" />

@@ -14,9 +14,11 @@ dependencies:
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
+    - field.field.user.user.field_non_standard_work_time
     - field.field.user.user.field_office
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
+    - field.field.user.user.field_work_hours
     - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
@@ -38,7 +40,7 @@ third_party_settings:
         - field_github
         - field_drupal_org
       parent_name: ''
-      weight: 10
+      weight: 7
       format_type: tab
       format_settings:
         id: links-social
@@ -48,6 +50,58 @@ third_party_settings:
         description: ''
         required_fields: true
       label: 'Links to social networks'
+      region: content
+    group_children:
+      children:
+        - field_children
+        - field_name
+        - field_year_of_birth
+      parent_name: ''
+      weight: 6
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Children
+      region: content
+    group_job_s_information:
+      children:
+        - field_company
+        - field_department
+        - field_office
+        - field_job_title
+      parent_name: ''
+      weight: 12
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Job''s information'
+      region: content
+    group_work_time:
+      children:
+        - field_non_standard_work_time
+        - field_work_hours
+        - field_worktime
+      parent_name: ''
+      weight: 8
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Work Time'
       region: content
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
@@ -62,7 +116,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_children:
-    weight: 7
+    weight: 8
     settings:
       display_label: true
     third_party_settings: {  }
@@ -70,7 +124,7 @@ content:
     region: content
   field_company:
     type: entity_reference_autocomplete
-    weight: 12
+    weight: 13
     region: content
     settings:
       match_operator: CONTAINS
@@ -78,14 +132,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_date_of_birth:
-    weight: 5
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_department:
     type: entity_reference_autocomplete
-    weight: 13
+    weight: 14
     region: content
     settings:
       match_operator: CONTAINS
@@ -133,13 +187,13 @@ content:
     type: link_default
     region: content
   field_job_title:
-    weight: 3
+    weight: 16
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_name:
-    weight: 8
+    weight: 9
     settings:
       size: 60
       placeholder: ''
@@ -163,9 +217,16 @@ content:
           bundle: user
     type: string_textfield
     region: content
+  field_non_standard_work_time:
+    weight: 9
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
   field_office:
     type: entity_reference_autocomplete
-    weight: 14
+    weight: 15
     region: content
     settings:
       match_operator: CONTAINS
@@ -173,7 +234,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_project:
-    weight: 6
+    weight: 5
     settings:
       rows: 5
       placeholder: ''
@@ -181,21 +242,61 @@ content:
     type: string_textarea
     region: content
   field_slack:
-    weight: 4
+    weight: 3
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_work_hours:
+    weight: 10
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        0531c371-3513-485f-adc5-ada268364830:
+          dependee: field_non_standard_work_time
+          settings:
+            state: visible
+            condition: '!checked'
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
+    type: options_select
+    region: content
   field_worktime:
     weight: 11
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      conditional_fields:
+        389bbca1-f167-426c-bfac-26373a7dde02:
+          dependee: field_non_standard_work_time
+          settings:
+            state: visible
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
     type: office_hours_default
     region: content
   field_year_of_birth:
-    weight: 9
+    weight: 10
     settings: {  }
     third_party_settings:
       conditional_fields:
