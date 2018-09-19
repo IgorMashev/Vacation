@@ -46,7 +46,8 @@
         "drupal/age_field_formatter": "^2.0",
         "drupal/search_api": "^1.10",
         "drupal/facets": "^1.1",
-        "drupal/date_popup": "^1.0"
+        "drupal/date_popup": "^1.0",
+        "drupal/field_collection": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.5"

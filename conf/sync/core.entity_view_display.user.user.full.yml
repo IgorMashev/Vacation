@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.full
+    - field.field.user.user.field_child
     - field.field.user.user.field_children
     - field.field.user.user.field_company
     - field.field.user.user.field_date_of_birth
@@ -14,7 +15,6 @@ dependencies:
     - field.field.user.user.field_github
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
-    - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
     - field.field.user.user.field_office
     - field.field.user.user.field_project
@@ -22,7 +22,6 @@ dependencies:
     - field.field.user.user.field_user_status
     - field.field.user.user.field_work_hours
     - field.field.user.user.field_worktime
-    - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
     - image.style.profile
   module:
@@ -159,14 +158,6 @@ content:
     third_party_settings: {  }
     type: list_default
     region: content
-  field_name:
-    weight: 6
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   field_project:
     weight: 12
     label: above
@@ -209,15 +200,6 @@ content:
     third_party_settings: {  }
     type: office_hours
     region: content
-  field_year_of_birth:
-    weight: 7
-    label: inline
-    settings:
-      age_format: '1'
-      year_suffix: true
-    third_party_settings: {  }
-    type: age_field_formatter
-    region: content
   profile_user_name:
     weight: 0
     region: content
@@ -233,6 +215,7 @@ content:
       image_link: ''
     third_party_settings: {  }
 hidden:
+  field_child: true
   field_non_standard_work_time: true
   field_office: true
   field_user_status: true

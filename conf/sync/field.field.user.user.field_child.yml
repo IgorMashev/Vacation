@@ -1,0 +1,21 @@
+uuid: 97a8ce21-c44e-4b08-90ad-6ebee186be96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_child
+  module:
+    - field_collection
+    - user
+id: user.user.field_child
+field_name: field_child
+entity_type: user
+bundle: user
+label: Child
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection
