@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_child
     - field.field.user.user.field_children
     - field.field.user.user.field_company
     - field.field.user.user.field_date_of_birth
@@ -13,7 +14,6 @@ dependencies:
     - field.field.user.user.field_github
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
-    - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
     - field.field.user.user.field_office
     - field.field.user.user.field_project
@@ -21,12 +21,12 @@ dependencies:
     - field.field.user.user.field_user_status
     - field.field.user.user.field_work_hours
     - field.field.user.user.field_worktime
-    - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - conditional_fields
     - datetime
+    - field_collection
     - field_group
     - image
     - link
@@ -55,8 +55,7 @@ third_party_settings:
     group_children:
       children:
         - field_children
-        - field_name
-        - field_year_of_birth
+        - field_child
       parent_name: ''
       weight: 6
       format_type: tab
@@ -116,6 +115,45 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_child:
+    weight: 7
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        c9b849ea-65a5-482d-9c44-c3acd6542e4e:
+          dependee: field_children
+          settings:
+            state: visible
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
+        59374bb1-68a6-48da-a0b9-8b6e3bf9b6c6:
+          dependee: field_children
+          settings:
+            state: '!visible'
+            condition: '!checked'
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: user
+          bundle: user
+    type: field_collection_embed
+    region: content
   field_children:
     weight: 6
     settings:
@@ -192,31 +230,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
-  field_name:
-    weight: 7
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings:
-      conditional_fields:
-        87abc1f8-51cb-4434-8201-1f113222c3af:
-          dependee: field_children
-          settings:
-            state: visible
-            condition: checked
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              value: false
-            effect: show
-            effect_options: {  }
-            selector: ''
-          entity_type: user
-          bundle: user
-    type: string_textfield
     region: content
   field_non_standard_work_time:
     weight: 9
@@ -304,29 +317,6 @@ content:
           entity_type: user
           bundle: user
     type: office_hours_default
-    region: content
-  field_year_of_birth:
-    weight: 8
-    settings: {  }
-    third_party_settings:
-      conditional_fields:
-        548535e4-5dfd-4236-9c6f-954fbfd972a4:
-          dependee: field_children
-          settings:
-            state: visible
-            condition: checked
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              value: false
-            effect: show
-            effect_options: {  }
-            selector: ''
-          entity_type: user
-          bundle: user
-    type: datetime_default
     region: content
   user_picture:
     type: image_image

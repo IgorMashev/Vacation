@@ -1,0 +1,30 @@
+uuid: fb12aa0f-7516-4530-af44-827ce392ad7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_child.field_name1
+    - field.field.field_collection_item.field_child.field_year_of_birth
+    - field_collection.field_collection.field_child
+  module:
+    - datetime
+id: field_collection_item.field_child.default
+targetEntityType: field_collection_item
+bundle: field_child
+mode: default
+content:
+  field_name1:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_year_of_birth:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

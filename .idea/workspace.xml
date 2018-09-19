@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82370f13-71f7-420a-a9a1-c0533f45cae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.full.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/field.field.user.user.field_user_status.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/field.storage.user.field_user_status.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/rest.settings.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/serialization.settings.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/taxonomy.vocabulary.user_status.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/sync/views.view.report.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/block.block.bootstrap_sass_powered.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/block.block.bootstrap_sass_powered.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/block.block.bootstrap_sass_views_block__image_block_block_1.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/block.block.views_block__image_block_block_1.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.entity_form_display.user.user.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.entity_form_display.user.user.default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.compact.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.compact.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.entity_view_display.user.user.default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/core.extension.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/core.extension.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/system.site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/sync/system.site.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/sync/views.view.image_block.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +29,7 @@
     <session id="849948880">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -246,8 +222,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="314" />
-    <option name="y" value="106" />
+    <option name="x" value="325" />
+    <option name="y" value="131" />
     <option name="width" value="1366" />
     <option name="height" value="740" />
   </component>
@@ -257,22 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="Vacation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Vacation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +290,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="Vacation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Vacation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,12 +345,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5907000" />
+    <option name="totallyTimeSpent" value="6181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="106" width="1366" height="740" extended-state="0" />
+    <frame x="325" y="131" width="1366" height="740" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30227274" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3068182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,7 +362,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924242" visible="true" weight="0.67320263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924242" visible="true" weight="0.6748366" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

@@ -1,0 +1,19 @@
+uuid: 4c1a977c-4ab4-4e67-ad60-f93b8ff56ca6
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - user
+id: user.field_child
+field_name: field_child
+entity_type: user
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
