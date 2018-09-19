@@ -1,0 +1,9 @@
+uuid: d59b5a35-7862-437f-b583-c2779709dee4
+langcode: en
+status: true
+dependencies: {  }
+name: Role
+vid: rol
+description: ''
+hierarchy: 0
+weight: 0

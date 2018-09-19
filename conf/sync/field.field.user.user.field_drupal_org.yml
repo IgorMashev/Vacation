@@ -1,0 +1,28 @@
+uuid: 9a37185c-cf26-4be8-b9bf-13e242983ec3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_drupal_org
+  module:
+    - link
+    - user
+id: user.user.field_drupal_org
+field_name: field_drupal_org
+entity_type: user
+bundle: user
+label: Drupal.org
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://www.drupal.org/'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -1,0 +1,30 @@
+uuid: 2273c52f-4158-491d-b220-2d4c42f0325b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_company
+    - taxonomy.vocabulary.company
+  module:
+    - user
+id: user.user.field_company
+field_name: field_company
+entity_type: user
+bundle: user
+label: Company
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      company: company
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

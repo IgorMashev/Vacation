@@ -1,0 +1,21 @@
+uuid: 96e81ee7-4aa1-4de1-9b3f-686553018cbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.iudevh
+    - field.storage.block_content.field_jvfuszb
+  module:
+    - datetime_range
+id: block_content.iudevh.field_jvfuszb
+field_name: field_jvfuszb
+entity_type: block_content
+bundle: iudevh
+label: JVFuszb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

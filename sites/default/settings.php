@@ -782,9 +782,9 @@ $settings['entity_update_batch_size'] = 50;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
 $databases['default']['default'] = array (
   'database' => 'mysite',
   'username' => 'root',
@@ -796,4 +796,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_WoVUwjEt50xFHwtx7je5zyzSwqye1vVZtwAVrm02m2cmerOplgkllosxHZi8T8KDDp3VwgDlWw/sync';
+$config_directories['sync'] = 'conf/sync';

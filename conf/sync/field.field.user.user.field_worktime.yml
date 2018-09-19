@@ -1,0 +1,56 @@
+uuid: 78951b13-3c87-4d65-b0ec-a3a1b1c53349
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_worktime
+  module:
+    - office_hours
+    - user
+id: user.user.field_worktime
+field_name: field_worktime
+entity_type: user
+bundle: user
+label: WorkTime
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    starthours: 900
+    day: '0'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '1'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '2'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '3'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '4'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '5'
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: '6'
+    endhours: 1800
+    comment: ''
+default_value_callback: ''
+settings: {  }
+field_type: office_hours

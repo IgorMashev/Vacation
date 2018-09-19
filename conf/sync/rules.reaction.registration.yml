@@ -1,0 +1,15 @@
+uuid: 13975fc7-4d8f-4521-b8c9-ce0755fc0216
+langcode: en
+status: true
+dependencies: {  }
+id: registration
+label: Registration
+events:
+  -
+    event_name: 'rules_entity_insert:user'
+description: ''
+tags:
+  - ''
+config_version: '3'
+expression:
+  id: rules_rule

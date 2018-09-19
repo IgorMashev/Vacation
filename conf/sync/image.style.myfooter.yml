@@ -1,0 +1,14 @@
+uuid: 66329ddc-b046-4555-bba1-c5a7125c1342
+langcode: en
+status: true
+dependencies: {  }
+name: myfooter
+label: myfooter
+effects:
+  cae889a2-b8e7-4e13-9628-978026c0aa2e:
+    uuid: cae889a2-b8e7-4e13-9628-978026c0aa2e
+    id: image_resize
+    weight: 1
+    data:
+      width: 250
+      height: 60

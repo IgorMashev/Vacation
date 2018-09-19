@@ -1,0 +1,10 @@
+uuid: 1584812a-502c-4b43-9904-f54620231dd3
+langcode: en
+status: true
+dependencies:
+  module:
+    - page_manager
+id: page_variant.token
+label: Token
+targetEntityType: page_variant
+cache: true

@@ -1,0 +1,32 @@
+uuid: d9ea0e0f-4ba8-4d3b-823e-e80d9e2434f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bootstrap_sass
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: bootstrap_sass_local_tasks
+theme: bootstrap_sass
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      hr: hr
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

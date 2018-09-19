@@ -1,0 +1,22 @@
+uuid: 9b771e76-d360-4e16-9f3b-ceda752b35cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_slack
+  module:
+    - user
+id: user.user.field_slack
+field_name: field_slack
+entity_type: user
+bundle: user
+label: slack
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: slack
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: 33ca0a60-91c8-47b9-b502-51b088e44c2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools_block
+  theme:
+    - bootstrap_sass
+id: picture
+theme: bootstrap_sass
+region: navigation_collapsible
+weight: -9
+provider: null
+plugin: 'entity_field:user:user_picture'
+settings:
+  id: 'entity_field:user:user_picture'
+  label: Picture
+  provider: ctools_block
+  label_display: '0'
+  formatter:
+    label: hidden
+    type: image
+    settings:
+      image_style: avatar
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+  context_mapping:
+    entity: '@user.current_user_context:current_user'
+visibility: {  }

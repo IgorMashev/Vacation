@@ -1,0 +1,40 @@
+uuid: 542fedd3-0868-42ff-8325-75a31dee3c65
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.iudevh
+    - field.field.block_content.iudevh.body
+    - field.field.block_content.iudevh.field_jvfuszb
+  module:
+    - datetime_range
+    - text
+id: block_content.iudevh.default
+targetEntityType: block_content
+bundle: iudevh
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_jvfuszb:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

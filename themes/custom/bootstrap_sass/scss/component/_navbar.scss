@@ -69,32 +69,51 @@ body {
   }
 }
 .navbar {
+  min-height: 60px;
   border: 0;
   background-color: inherit;
   width: 100%;
   margin-bottom: 0;
+
   .name {
-    color: #aaa;
-    font-family: 'Pacifico', cursive;
+    &:hover{ color: $color2;}
+    height: 60px;
+    color: $color21;
     font-size: 26px;
+    line-height: 40px;
   }
   .navbar-nav > li > a {
-    color: #aaa;
+    color: $color2;
+    line-height: 40px;
     }
   .navbar-header {
       width: 100%;
       }
   .contextual-region {
-    
     display: inline-block;
       }
-  #block-bootstrap-sass-account-menu, #block-picture {
+      #block-picture {
         float: right;
       }
+  #block-bootstrap-sass-account-menu, #block-user-login {
+      float: right;
+        a {
+          margin: 10px 5px;
+          border-radius: 5px;
+          padding: 0 5px;
+          color: white;
+          &:hover {
+          color: $color1;
+          background: $color11;
+          
+          }
+        }
+      }
   #block-picture {
-    height: 50px;
+    cursor: pointer;
+    height: 60px;
     vertical-align: middle;
-     line-height: 55px;
+    line-height: 60px;
     .field{
       border-fit: overwrite;
       vertical-align: middle;
@@ -103,4 +122,62 @@ body {
       overflow: hidden;
       }
     }
+}
+#block-bootstrap-sass-account-menu {
+  a {
+    background-color: $color21;
+  }
+  cursor: pointer;
+  display: none;
+}
+.menu--account   {
+  margin-right: 10px;
+}
+#block-socialauthlogin {
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+
+}
+#auth_box {
+  width: 30%;
+  min-width: 500px;
+}
+#middle_part {
+position: relative;
+}
+
+
+.navbar-collapse {
+  line-height: 40px;
+}
+#block-bootstrap-sass-main-menu, #block-bootstrap-sass-footer{
+        a {
+          color: $color1;
+          &:hover {
+          color: $color1;
+          background: $color11;
+          }
+        }
+    }    
+    #block-bootstrap-sass-footer {
+      float: right;
+      
+    } 
+    .footer {
+    .nav > li, #block-drupalfooter {
+      display: inline-block;
+    }
+    }
+#block-bell {
+  .field {
+    height: 60px;
+  }
+  float: right;
+
+  span {
+    margin-right: 10px;
+    font-size: 33px;
+    line-height: 60px;
+  }
 }
