@@ -43,7 +43,10 @@
         "drupal/conditional_fields": "^1.0",
         "drupal/user_login_persistent_destination": "^1.0",
         "drupal/anonymous_login": "^1.1",
-        "drupal/age_field_formatter": "^2.0"
+        "drupal/age_field_formatter": "^2.0",
+        "drupal/search_api": "^1.10",
+        "drupal/facets": "^1.1",
+        "drupal/date_popup": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.5"

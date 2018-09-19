@@ -18,8 +18,8 @@ dependencies:
     - field.field.user.user.field_office
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
-    - field.field.user.user.field_work_hours
     - field.field.user.user.field_user_status
+    - field.field.user.user.field_work_hours
     - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture

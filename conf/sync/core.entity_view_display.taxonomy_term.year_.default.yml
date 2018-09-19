@@ -1,0 +1,32 @@
+uuid: 71e40faf-3f4f-41b3-af4a-a6bbecda63f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.year_.field_date
+    - taxonomy.vocabulary.year_
+  module:
+    - datetime
+    - text
+id: taxonomy_term.year_.default
+targetEntityType: taxonomy_term
+bundle: year_
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

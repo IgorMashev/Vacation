@@ -1,0 +1,45 @@
+uuid: 115c63bb-a03a-41fb-b161-3ec79000334e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.year_.field_date
+    - taxonomy.vocabulary.year_
+  module:
+    - datetime
+    - path
+    - text
+id: taxonomy_term.year_.default
+targetEntityType: taxonomy_term
+bundle: year_
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_date:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -6,8 +6,8 @@ package: Date
 dependencies:
   - drupal:datetime
 
-# Information added by Drupal.org packaging script on 2017-11-30
-version: '8.x-2.0'
+# Information added by Drupal.org packaging script on 2018-09-18
+version: '8.x-2.1'
 core: '8.x'
 project: 'age_field_formatter'
-datestamp: 1512000786
+datestamp: 1537314483

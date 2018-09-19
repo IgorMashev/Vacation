@@ -28,6 +28,7 @@ class AgeFieldFormatter extends FormatterBase {
   public static function defaultSettings() {
     $options = parent::defaultSettings();
 
+    $options['date_format'] = \Drupal\datetime\Plugin\Field\FieldType\DateTimeItemInterface::DATETIME_STORAGE_FORMAT;
     $options['age_format'] = TRUE;
     $options['year_suffix'] = TRUE;
     return $options;
@@ -50,12 +51,21 @@ class AgeFieldFormatter extends FormatterBase {
       '#title' => $this->t('Date/age format'),
       '#options' => $age_formats,
       '#default_value' => $this->getSetting('age_format'),
+      '#attributes' => array('class' => array('age-format-select')),
     ];
 
     $elements['year_suffix'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Display a “years” suffix after the age'),
       '#default_value' => $this->getSetting('year_suffix'),
+    ];
+
+    $elements['date_format'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('Date/time format'),
+      '#description' => $this->t('See <a href="http://php.net/manual/function.date.php" target="_blank">the documentation for PHP date formats</a>.'),
+      '#default_value' => $this->getSetting('date_format'),
+      '#attributes' => array('class' => array('date-format')),
     ];
 
     return $elements;
@@ -83,7 +93,13 @@ class AgeFieldFormatter extends FormatterBase {
       $format = $format . ' + ' . $year_suffix_summary;
     }
 
-    $summary[] = $this->t('Age format: %format', array('%format' => $format));
+    /* @TODO
+    $date = new DrupalDateTime();
+    $this->setTimeZone($date);
+    $summary[] = $date->format($this->getSetting('date_format'), $this->getFormatSettings());
+     */
+
+    $summary[] = $this->t('Age format: %format', ['%format' => $format]);
 
     return $summary;
   }
@@ -122,15 +138,22 @@ class AgeFieldFormatter extends FormatterBase {
     $setting = $this->getSetting('age_format');
     $year_suffix = $this->getSetting('year_suffix');
 
+    $format = $this->getSetting('date_format');
+    $timezone = $this->getSetting('timezone_override');
+
+    $date_raw = $item->getValue();
+    $date = strtotime($date_raw['value']);
+    $date_formatted = \Drupal::service('date.formatter')->format($date, 'custom', $format, $timezone != '' ? $timezone : NULL);
+
     if ($year_suffix == true) {
       $age_suffix = $this->stringTranslation->formatPlural($age, 'year', 'years');
       $age = $age . ' ' . $age_suffix;
     }
 
     if ($setting == 'birthdate') {
-      $age_formatted = $item->value." (".$agelabel.": ". $age .")";
+      $age_formatted = $date_formatted ." (".$agelabel.": ". $age .")";
     } elseif ($setting == 'birthdate_nolabel') {
-      $age_formatted = $item->value." (". $age .")";
+      $age_formatted = $date_formatted ." (". $age .")";
     } else {
       $age_formatted = $age; // We do not force prefix a label to the value.
     }

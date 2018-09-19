@@ -62,3 +62,56 @@
           }
     }    
   }
+.table-striped > tbody > tr {
+	&:nth-of-type(odd) {
+	background-color: inherit;
+	}
+	&:hover {
+		background-color: $color1+010;
+	}
+}
+.views-exposed-form {
+	position: relative;;
+	padding-bottom: 30px;
+	#edit-uid {
+		width: 200px;
+	}
+	label {
+		display: block;
+	}
+	.form-group {
+		vertical-align: top;
+	}
+	#edit-actions {
+		position: absolute;
+		left: -5px;
+		bottom: -5px;
+	}
+
+.form-type-select {
+		max-height: 54px;
+		.form-select[multiple*="multiple"] {
+			height: 34px;
+			&:hover {
+				height: 100px;
+				}
+		}
+	}
+}
+	.feed-icon {
+		background-image: none !important;
+		background-color: #269abc;
+		display: inline-block;
+		margin-bottom: 0;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		background-image: none;
+		border: 1px solid transparent;
+		white-space: nowrap;
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1.428571429;
+		border-radius: 4px;
+		width: auto !important;
+	}

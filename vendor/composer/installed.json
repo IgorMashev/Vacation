@@ -525,60 +525,6 @@
         ]
     },
     {
-        "name": "consolidation/annotated-command",
-        "version": "2.8.5",
-        "version_normalized": "2.8.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/consolidation/annotated-command.git",
-            "reference": "1e8ff512072422b850b44aa721b5b303e4a5ebb3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/1e8ff512072422b850b44aa721b5b303e4a5ebb3",
-            "reference": "1e8ff512072422b850b44aa721b5b303e4a5ebb3",
-            "shasum": ""
-        },
-        "require": {
-            "consolidation/output-formatters": "^3.1.12",
-            "php": ">=5.4.0",
-            "psr/log": "^1",
-            "symfony/console": "^2.8|^3|^4",
-            "symfony/event-dispatcher": "^2.5|^3|^4",
-            "symfony/finder": "^2.5|^3|^4"
-        },
-        "require-dev": {
-            "g1a/composer-test-scenarios": "^2",
-            "phpunit/phpunit": "^6",
-            "satooshi/php-coveralls": "^2",
-            "squizlabs/php_codesniffer": "^2.7"
-        },
-        "time": "2018-08-18 23:51:49",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Consolidation\\AnnotatedCommand\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Greg Anderson",
-                "email": "greg.1.anderson@greenknowe.org"
-            }
-        ],
-        "description": "Initialize Symfony Console commands from annotated command class methods."
-    },
-    {
         "name": "consolidation/config",
         "version": "1.1.0",
         "version_normalized": "1.1.0.0",
@@ -1863,59 +1809,6 @@
         }
     },
     {
-        "name": "drupal/age_field_formatter",
-        "version": "2.0.0",
-        "version_normalized": "2.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/age_field_formatter",
-            "reference": "8.x-2.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/age_field_formatter-8.x-2.0.zip",
-            "reference": "8.x-2.0",
-            "shasum": "ff7ba5288f499dc94f53ec7555c417c2d2559174"
-        },
-        "require": {
-            "drupal/core": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-2.x": "2.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-2.0",
-                "datestamp": "1512000784",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "xmacinfo",
-                "homepage": "https://www.drupal.org/user/12131"
-            }
-        ],
-        "description": "Takes the value from a date field and calculate and display the age.",
-        "homepage": "https://www.drupal.org/project/age_field_formatter",
-        "keywords": [
-            "Drupal"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/age_field_formatter",
-            "issues": "https://www.drupal.org/project/issues/age_field_formatter"
-        }
-    },
-    {
         "name": "drupal/anonymous_login",
         "version": "1.1.0",
         "version_normalized": "1.1.0.0",
@@ -2597,6 +2490,55 @@
         }
     },
     {
+        "name": "drupal/date_popup",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/date_popup",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/date_popup-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "7a950c593e185bdf677f87b5d724b55a00768d67"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1496370243",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "benjy",
+                "homepage": "https://www.drupal.org/user/1852732"
+            }
+        ],
+        "description": "Provides a HTML 5 date popup for all views filters.",
+        "homepage": "https://www.drupal.org/project/date_popup",
+        "support": {
+            "source": "http://cgit.drupalcode.org/date_popup"
+        }
+    },
+    {
         "name": "drupal/date_range_formatter",
         "version": "3.1.0",
         "version_normalized": "3.1.0.0",
@@ -3042,6 +2984,68 @@
         "homepage": "https://www.drupal.org/project/entity_reference_revisions",
         "support": {
             "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+        }
+    },
+    {
+        "name": "drupal/facets",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/facets",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/facets-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "d916790b16da4e42b1615bc03221d4d81905ec3f"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "require-dev": {
+            "drupal/search_api": "~1.5"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1533065280",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "See all contributors",
+                "homepage": "https://www.drupal.org/node/2348769/committers"
+            },
+            {
+                "name": "StryKaizer",
+                "homepage": "https://www.drupal.org/user/462700"
+            },
+            {
+                "name": "borisson_",
+                "homepage": "https://www.drupal.org/user/2393360"
+            }
+        ],
+        "description": "The Facet module allows site builders to easily create and manage faceted search interfaces.",
+        "homepage": "https://www.drupal.org/project/facets",
+        "support": {
+            "source": "git://git.drupal.org/project/facets.git",
+            "issues": "https://www.drupal.org/project/issues/facets",
+            "irc": "irc://irc.freenode.org/drupal-search-api"
         }
     },
     {
@@ -3787,6 +3791,79 @@
         "homepage": "https://www.drupal.org/project/rules",
         "support": {
             "source": "http://cgit.drupalcode.org/rules"
+        }
+    },
+    {
+        "name": "drupal/search_api",
+        "version": "1.10.0",
+        "version_normalized": "1.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/search_api",
+            "reference": "8.x-1.10"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.10.zip",
+            "reference": "8.x-1.10",
+            "shasum": "1c1d038310a079f8e8154545f743ff7a506c4b8e"
+        },
+        "require": {
+            "drupal/core": "^8.5"
+        },
+        "require-dev": {
+            "drupal/search_api_autocomplete": "@dev",
+            "drupal/search_api_db": "*"
+        },
+        "suggest": {
+            "drupal/facets": "Adds the ability to create faceted searches.",
+            "drupal/search_api_autocomplete": "Allows adding autocomplete suggestions to search fields.",
+            "drupal/search_api_solr": "Adds support for using Apache Solr as a backend."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.10",
+                "datestamp": "1537175280",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Seidl",
+                "homepage": "https://www.drupal.org/u/drunken-monkey"
+            },
+            {
+                "name": "Nick Veenhof",
+                "homepage": "https://www.drupal.org/u/nick_vh"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/790418/committers"
+            }
+        ],
+        "description": "Provides a generic framework for modules offering search capabilities.",
+        "homepage": "https://www.drupal.org/project/search_api",
+        "support": {
+            "source": "http://git.drupal.org/project/search_api.git",
+            "issues": "https://www.drupal.org/project/issues/search_api",
+            "irc": "irc://irc.freenode.org/drupal-search-api"
         }
     },
     {
@@ -5784,59 +5861,6 @@
             "duplicate",
             "object",
             "object graph"
-        ]
-    },
-    {
-        "name": "nikic/php-parser",
-        "version": "v4.0.3",
-        "version_normalized": "4.0.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bd088dc940a418f09cda079a9b5c7c478890fb8d",
-            "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d",
-            "shasum": ""
-        },
-        "require": {
-            "ext-tokenizer": "*",
-            "php": ">=7.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^6.5 || ^7.0"
-        },
-        "time": "2018-07-15 17:25:16",
-        "bin": [
-            "bin/php-parse"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "4.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "PhpParser\\": "lib/PhpParser"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Nikita Popov"
-            }
-        ],
-        "description": "A PHP parser written in PHP",
-        "keywords": [
-            "parser",
-            "php"
         ]
     },
     {
@@ -9899,6 +9923,166 @@
             "ZendFramework",
             "stdlib",
             "zf"
+        ]
+    },
+    {
+        "name": "drupal/age_field_formatter",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/age_field_formatter",
+            "reference": "8.x-2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/age_field_formatter-8.x-2.1.zip",
+            "reference": "8.x-2.1",
+            "shasum": "1869396828ba51920643f130a7ac316ea1d4b711"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.1",
+                "datestamp": "1537314480",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "xmacinfo",
+                "homepage": "https://www.drupal.org/user/12131"
+            }
+        ],
+        "description": "Takes the value from a date field and calculate and display the age.",
+        "homepage": "https://www.drupal.org/project/age_field_formatter",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/age_field_formatter",
+            "issues": "https://www.drupal.org/project/issues/age_field_formatter"
+        }
+    },
+    {
+        "name": "consolidation/annotated-command",
+        "version": "2.9.0",
+        "version_normalized": "2.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/consolidation/annotated-command.git",
+            "reference": "851c6b7f490262748586e05bcb6fc69686519233"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/851c6b7f490262748586e05bcb6fc69686519233",
+            "reference": "851c6b7f490262748586e05bcb6fc69686519233",
+            "shasum": ""
+        },
+        "require": {
+            "consolidation/output-formatters": "^3.1.12",
+            "php": ">=5.4.0",
+            "psr/log": "^1",
+            "symfony/console": "^2.8|^3|^4",
+            "symfony/event-dispatcher": "^2.5|^3|^4",
+            "symfony/finder": "^2.5|^3|^4"
+        },
+        "require-dev": {
+            "g1a/composer-test-scenarios": "^2",
+            "phpunit/phpunit": "^6",
+            "satooshi/php-coveralls": "^2",
+            "squizlabs/php_codesniffer": "^2.7"
+        },
+        "time": "2018-09-19 03:49:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Consolidation\\AnnotatedCommand\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Greg Anderson",
+                "email": "greg.1.anderson@greenknowe.org"
+            }
+        ],
+        "description": "Initialize Symfony Console commands from annotated command class methods."
+    },
+    {
+        "name": "nikic/php-parser",
+        "version": "v4.0.4",
+        "version_normalized": "4.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/fa6ee28600d21d49b2b4e1006b48426cec8e579c",
+            "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.5 || ^7.0"
+        },
+        "time": "2018-09-18 07:03:24",
+        "bin": [
+            "bin/php-parse"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpParser\\": "lib/PhpParser"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
         ]
     }
 ]

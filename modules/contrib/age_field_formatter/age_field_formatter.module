@@ -35,3 +35,11 @@ function age_field_formatter_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_formatter_page_attachments().
+ */
+function age_field_formatter_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] =
+    'age_field_formatter/age-field-formatter';
+}
