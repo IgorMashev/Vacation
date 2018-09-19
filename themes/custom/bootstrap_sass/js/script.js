@@ -3,7 +3,7 @@
 
   Drupal.behaviors.mnu = {
     attach: function(context, settings) {
-		$('#block-bootstrap-sass-account-menu').addClass("hidden");
+   		$('#block-bootstrap-sass-account-menu').addClass("hidden");
 		$('#block-picture').click(function() {
 
 		if ($('#block-bootstrap-sass-account-menu').hasClass("hidden")) {

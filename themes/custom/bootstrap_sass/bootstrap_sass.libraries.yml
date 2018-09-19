@@ -17,3 +17,4 @@ framework:
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
     js/script2.js: {}
     js/script.js: {}
+    js/script3.js: {}

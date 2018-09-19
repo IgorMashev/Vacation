@@ -1,0 +1,21 @@
+uuid: 95cbbc37-2b7d-4eba-9f17-3d6a22d6d1e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_date
+    - taxonomy.vocabulary.year_
+  module:
+    - datetime
+id: taxonomy_term.year_.field_date
+field_name: field_date
+entity_type: taxonomy_term
+bundle: year_
+label: 'date year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
