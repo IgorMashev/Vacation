@@ -4,7 +4,6 @@ module:
   admin_toolbar_tools: 0
   age_field_formatter: 0
   automated_cron: 0
-  betterlogin: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -62,6 +61,7 @@ module:
   panels_ipe: 0
   path: 0
   quickedit: 0
+  r4032login: 0
   rdf: 0
   rest: 0
   rules: 0

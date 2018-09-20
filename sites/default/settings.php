@@ -786,9 +786,9 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 $databases['default']['default'] = array (
-  'database' => 'c39personaldev01',
-  'username' => 'c39personaldev01',
-  'password' => 'hnbiLYxCkCM@6',
+  'database' => 'mysite',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

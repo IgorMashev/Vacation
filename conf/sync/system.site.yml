@@ -1,9 +1,9 @@
 uuid: 21f7af6d-357b-44da-a954-e4dadc54334a
 name: 'PERSONAL REQUESTS ID'
-mail: i.mashevskyi@internetdevels.com
+mail: o.tarasiuk@internetdevels.com
 slogan: ''
 page:
-  403: /user/
+  403: ''
   404: ''
   front: /webform/request
 admin_compact_mode: false

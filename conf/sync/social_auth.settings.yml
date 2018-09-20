@@ -6,7 +6,7 @@ post_login: /request
 redirect_user_form: false
 disable_admin_login: false
 disabled_roles:
-  administrator: '0'
+  administrator: administrator
   hr: '0'
 user_allowed: register
 _core:
