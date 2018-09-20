@@ -86,9 +86,9 @@ content:
     weight: 3
     label: inline
     settings:
-      age_format: birthdate
+      age_format: birthdate_nolabel
       year_suffix: '1'
-      date_format: 'Y-m-d\TH:i:s'
+      date_format: d-m-Y
     third_party_settings: {  }
     type: age_field_formatter
     region: content
