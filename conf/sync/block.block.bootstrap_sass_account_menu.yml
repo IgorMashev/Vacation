@@ -6,7 +6,6 @@ dependencies:
     - system.menu.account
   module:
     - system
-    - user
   theme:
     - bootstrap_sass
 _core:
@@ -23,12 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
-visibility:
-  user_role:
-    id: user_role
-    roles:
-      authenticated: authenticated
-    negate: false
-    context_mapping:
-      user: '@user.current_user_context:current_user'
+  depth: 1
+visibility: {  }

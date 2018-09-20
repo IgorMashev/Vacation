@@ -1,11 +1,11 @@
 (function ($) {
+  'use strict';
 
-
-  Drupal.behaviors.multiselectnew = {
+  Drupal.behaviors.readonle = {
   	attach: function(context, settings) {
-          $('edit-order').setAttribute(readonly);
-  		    };
-  };
+          $('#edit-order').attr("readonly","readonly");
+  		    }
+  }
 
 }(jQuery));
 

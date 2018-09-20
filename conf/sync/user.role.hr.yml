@@ -10,6 +10,7 @@ permissions:
   - 'access site-wide contact form'
   - 'access user profiles'
   - 'administer users'
+  - 'administer workflows'
   - 'cancel account'
   - 'change own username'
   - 'delete any user_name profile'
