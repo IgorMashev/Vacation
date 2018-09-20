@@ -29,7 +29,7 @@
           function countDays(start, end) {
             var startDate = convertDate(start);
             var endDate = convertDate(end);
-            var seconds = endDate - startDate;
+            var seconds = endDate - startDate + 86400000;
 
             return seconds/86400000;
           }

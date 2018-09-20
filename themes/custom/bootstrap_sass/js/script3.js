@@ -3,7 +3,7 @@
 
   Drupal.behaviors.multiselectnew = {
   	attach: function(context, settings) {
-  		$('#edit-field-department-target-id').selectpicker();
+          $('edit-order').setAttribute(readonly);
   		    };
   };
 
