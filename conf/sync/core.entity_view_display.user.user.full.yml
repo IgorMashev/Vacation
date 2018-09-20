@@ -82,8 +82,9 @@ content:
     weight: 4
     label: inline
     settings:
-      age_format: '1'
-      year_suffix: true
+      age_format: birthdate
+      year_suffix: '1'
+      date_format: d-m-Y
     third_party_settings: {  }
     type: age_field_formatter
     region: content
