@@ -3,9 +3,9 @@ name: 'PERSONAL REQUESTS ID'
 mail: i.mashevskyi@internetdevels.com
 slogan: ''
 page:
-  403: ''
+  403: /user/
   404: ''
-  front: /request
+  front: /webform/request
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

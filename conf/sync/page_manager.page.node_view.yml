@@ -1,7 +1,9 @@
 uuid: 46272c44-a705-4b37-852b-79b4732fc65d
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - user
 _core:
   default_config_hash: RCVWP-yHwxSNiQORMIabDgHMEVqOMW58w80BQgRFJ4k
 id: node_view
@@ -10,7 +12,14 @@ description: 'When enabled, this overrides the default Drupal behavior for displ
 use_admin_theme: false
 path: '/node/{node}'
 access_logic: and
-access_conditions: {  }
+access_conditions:
+  -
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: true
+    context_mapping:
+      user: current_user
 parameters:
   node:
     machine_name: node

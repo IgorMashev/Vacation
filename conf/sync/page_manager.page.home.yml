@@ -1,12 +1,21 @@
 uuid: c6a3d022-38af-4b1c-8bfe-4ddb1bd9db42
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - user
 id: home
 label: home
 description: ''
 use_admin_theme: false
 path: /home
 access_logic: and
-access_conditions: {  }
+access_conditions:
+  -
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: true
+    context_mapping:
+      user: current_user
 parameters: {  }

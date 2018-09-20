@@ -1,12 +1,21 @@
 uuid: 5e9cc149-0a21-4ee7-8172-6743f2f45a31
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - user
 id: reques
 label: Reques
 description: ''
 use_admin_theme: false
 path: /request
 access_logic: and
-access_conditions: {  }
+access_conditions:
+  -
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: current_user
 parameters: {  }

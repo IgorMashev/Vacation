@@ -1,12 +1,21 @@
 uuid: ce6a4520-82f8-47ef-92b1-ceec4f38f6c1
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - user
 id: vacation_rules
 label: 'Vacation Rules'
 description: ''
 use_admin_theme: false
 path: /vacation_rules
 access_logic: and
-access_conditions: {  }
+access_conditions:
+  -
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: true
+    context_mapping:
+      user: current_user
 parameters: {  }
