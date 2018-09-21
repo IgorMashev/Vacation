@@ -3,23 +3,22 @@
 
   Drupal.behaviors.mnu = {
     attach: function(context, settings) {
-  //  		$('#block-bootstrap-sass-account-menu').addClass("hidden");
-		// $('#block-picture').click(function() {
+   	$('#block-bootstrap-sass-account-menu').addClass("hidden");
+		$('#block-picture').click(function() {
 
-		// if ($('#block-bootstrap-sass-account-menu').hasClass("hidden")) {
-		// 	$('#block-bootstrap-sass-account-menu').removeClass("hidden").addClass("visible");
+		if ($('#block-bootstrap-sass-account-menu').hasClass("hidden")) {
+			$('#block-bootstrap-sass-account-menu').removeClass("hidden").addClass("visible");
 
-		// 	} else {
+			} else if ($('#block-bootstrap-sass-account-menu').hasClass("hidden")) {
 
-		// 	$('#block-bootstrap-sass-account-menu').removeClass("visible").addClass("hidden");
-		// 	}
-		// });
+			$('#block-bootstrap-sass-account-menu').removeClass("visible").addClass("hidden");
+			}
+		});
  
 
-        $('#block-picture').click(function(event) {
-			event.preventDefault();
-        	$('#block-bootstrap-sass-account-menu').toggle();
-    	});
+     //    $('#block-picture').click(function() {
+     //    	$('#block-bootstrap-sass-account-menu').toggle();
+    	// });
 
 
         		
