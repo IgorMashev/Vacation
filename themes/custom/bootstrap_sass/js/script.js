@@ -8,8 +8,9 @@
 
 		if ($('#block-bootstrap-sass-account-menu').hasClass("hidden")) {
 			$('#block-bootstrap-sass-account-menu').removeClass("hidden").addClass("visible");
-
-			} else if ($('#block-bootstrap-sass-account-menu').hasClass("hidden")) {
+			console.log(1)
+			} else if ($('#block-bootstrap-sass-account-menu').hasClass("visible")) {
+				console.log(2)
 
 			$('#block-bootstrap-sass-account-menu').removeClass("visible").addClass("hidden");
 			}
