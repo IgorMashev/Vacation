@@ -1,0 +1,13 @@
+uuid: f71cd663-4bf0-4a2c-86fc-c31348154781
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_change_notifier.ecn_destination.notification
+    - webform.webform.request
+id: notification
+label: 'Notification Pub'
+destination: notification
+publish_types:
+  webform_submission:
+    - request

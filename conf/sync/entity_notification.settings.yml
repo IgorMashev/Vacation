@@ -1,0 +1,64 @@
+configuration:
+  block_content:
+    create: {  }
+    update: {  }
+    delete: {  }
+  comment:
+    create: {  }
+    update: {  }
+    delete: {  }
+  contact_message:
+    create: {  }
+    update: {  }
+    delete: {  }
+  content_moderation_state:
+    create: {  }
+    update: {  }
+    delete: {  }
+  file:
+    create: {  }
+    update: {  }
+    delete: {  }
+  message:
+    create: {  }
+    update: {  }
+    delete: {  }
+  node:
+    create: {  }
+    update: {  }
+    delete: {  }
+  search_api_task:
+    create: {  }
+    update: {  }
+    delete: {  }
+  shortcut:
+    create: {  }
+    update: {  }
+    delete: {  }
+  social_auth:
+    create: {  }
+    update: {  }
+    delete: {  }
+  taxonomy_term:
+    create: {  }
+    update: {  }
+    delete: {  }
+  user:
+    create: {  }
+    update: {  }
+    delete: {  }
+  webform_submission:
+    create:
+      to: rqwr2
+      subject: ''
+      body: ''
+    update: {  }
+    delete: {  }
+  menu_link_content:
+    create: {  }
+    update: {  }
+    delete: {  }
+  paragraph:
+    create: {  }
+    update: {  }
+    delete: {  }

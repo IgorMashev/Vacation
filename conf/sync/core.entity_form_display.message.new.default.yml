@@ -1,0 +1,12 @@
+uuid: ad717b32-81f2-4f17-b811-125e57c3cda7
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.new
+id: message.new.default
+targetEntityType: message
+bundle: new
+mode: default
+content: {  }
+hidden: {  }

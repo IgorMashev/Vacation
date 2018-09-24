@@ -1,0 +1,23 @@
+uuid: ed070d7b-b4db-4504-8a7a-f5922f57a767
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_create
+    - message.template.message
+id: message.message.field_create
+field_name: field_create
+entity_type: message
+bundle: message
+label: Create
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

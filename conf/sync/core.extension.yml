@@ -18,6 +18,7 @@ module:
   conditional_fields: 0
   config: 0
   contact: 0
+  content_moderation: 0
   contextual: 0
   csv_serialization: 0
   ctools: 0
@@ -33,6 +34,8 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity: 0
+  entity_change_notifier: 0
+  entity_notification: 0
   entity_reference_revisions: 0
   facets: 0
   field: 0
@@ -45,12 +48,15 @@ module:
   history: 0
   image: 0
   inline_form_errors: 0
+  jsonapi: 0
   kint: 0
   layout_discovery: 0
   libraries: 0
   link: 0
+  mailsystem: 0
   menu_token: 0
   menu_ui: 0
+  message: 0
   node: 0
   office_hours: 0
   options: 0
@@ -60,6 +66,7 @@ module:
   panels: 0
   panels_ipe: 0
   path: 0
+  phpmailer: 0
   quickedit: 0
   rdf: 0
   rest: 0
@@ -68,6 +75,8 @@ module:
   search_api: 0
   serialization: 0
   shortcut: 0
+  site_notifications: 0
+  smtp: 0
   social_api: 0
   social_auth: 0
   social_auth_google: 0
@@ -91,6 +100,7 @@ module:
   webform_scheduled_email: 0
   webform_templates: 0
   webform_ui: 0
+  workflows: 0
   contribute: 1
   ds: 1
   menu_link_content: 1

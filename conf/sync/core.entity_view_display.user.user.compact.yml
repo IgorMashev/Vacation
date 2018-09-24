@@ -12,6 +12,7 @@ dependencies:
     - field.field.user.user.field_facebook
     - field.field.user.user.field_full_name
     - field.field.user.user.field_github
+    - field.field.user.user.field_history
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
@@ -20,7 +21,7 @@ dependencies:
     - field.field.user.user.field_project
     - field.field.user.user.field_slack
     - field.field.user.user.field_user_status
-    - field.field.user.user.field_worktime
+    - field.field.user.user.field_work_hours
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
   module:
@@ -41,6 +42,7 @@ hidden:
   field_facebook: true
   field_full_name: true
   field_github: true
+  field_history: true
   field_instagram: true
   field_job_title: true
   field_name: true
@@ -50,7 +52,6 @@ hidden:
   field_slack: true
   field_user_status: true
   field_work_hours: true
-  field_worktime: true
   field_year_of_birth: true
   member_for: true
   profile_user_name: true

@@ -1,11 +1,11 @@
 (function ($) {
+  'use strict';
 
-
-  Drupal.behaviors.multiselectnew = {
+  Drupal.behaviors.readonle = {
   	attach: function(context, settings) {
-  		$('#edit-field-department-target-id').selectpicker();
-  		    };
-  };
+          $('#edit-order').attr("readonly","readonly");
+  		    }
+  }
 
 }(jQuery));
 

@@ -1,0 +1,27 @@
+uuid: 34b09713-7641-4b81-8194-77141bad2d20
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.notification_list
+    - field.field.block_content.notification_list.field_notification_list
+id: block_content.notification_list.default
+targetEntityType: block_content
+bundle: notification_list
+mode: default
+content:
+  field_notification_list:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

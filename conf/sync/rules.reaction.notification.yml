@@ -1,0 +1,15 @@
+uuid: 72a282eb-de40-42e2-82b1-d4ac9b959ebb
+langcode: en
+status: true
+dependencies: {  }
+id: notification
+label: Notification
+events:
+  -
+    event_name: 'rules_entity_insert:webform_submission'
+description: ''
+tags:
+  - ''
+config_version: '3'
+expression:
+  id: rules_rule

@@ -10,7 +10,7 @@ dependencies:
 id: socialauthlogin
 theme: bootstrap_sass
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: social_auth_login
 settings:

@@ -9,7 +9,7 @@ _core:
 id: bootstrap_sass_page_title
 theme: bootstrap_sass
 region: highlighted
-weight: -7
+weight: -8
 provider: null
 plugin: page_title_block
 settings:

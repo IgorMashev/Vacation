@@ -1,0 +1,42 @@
+uuid: 9d350425-250a-4160-8ef4-e1efa9c1ae44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_create_webform
+    - message.template.message
+    - webform.webform.request
+  module:
+    - webform
+id: message.message.field_create_webform
+field_name: field_create_webform
+entity_type: message
+bundle: message
+label: 'Create Webform'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: "# This is an example of a comment.\r\nelement_key: 'Created request'\r\n\r\n# The below example uses a token to get the current node's title.\r\n# Add ':clear' to the end token to return an empty value when the token is missing.\r\ntitle: '[webform_submission:node:reguest:clear]'"
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 75c3fd9c-ad9f-4117-bc12-535b4adf3eb8
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 75c3fd9c-ad9f-4117-bc12-535b4adf3eb8
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

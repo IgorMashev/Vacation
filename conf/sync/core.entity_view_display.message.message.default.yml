@@ -1,0 +1,34 @@
+uuid: 49c58165-8c15-443c-bc50-b65e2906c5b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.message.field_create
+    - field.field.message.message.field_create_webform
+    - message.template.message
+  module:
+    - webform
+id: message.message.default
+targetEntityType: message
+bundle: message
+mode: default
+content:
+  field_create:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_create_webform:
+    weight: 0
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: 28c68de7-857f-42b4-8c27-c124680a9c82
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_notification_list
+field_name: field_notification_list
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

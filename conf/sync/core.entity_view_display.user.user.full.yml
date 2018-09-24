@@ -12,6 +12,7 @@ dependencies:
     - field.field.user.user.field_facebook
     - field.field.user.user.field_full_name
     - field.field.user.user.field_github
+    - field.field.user.user.field_history
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
@@ -21,7 +22,6 @@ dependencies:
     - field.field.user.user.field_slack
     - field.field.user.user.field_user_status
     - field.field.user.user.field_work_hours
-    - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
     - image.style.profile
@@ -31,7 +31,6 @@ dependencies:
     - field_group
     - image
     - link
-    - office_hours
     - options
     - user
 third_party_settings:
@@ -182,33 +181,6 @@ content:
     third_party_settings: {  }
     region: content
     type: string
-  field_worktime:
-    weight: 9
-    label: above
-    settings:
-      day_format: long
-      time_format: G
-      compress: false
-      grouped: false
-      show_closed: all
-      closed_format: Closed
-      separator:
-        days: '<br />'
-        grouped_days: ' - '
-        day_hours: ': '
-        hours_hours: '-'
-        more_hours: ', '
-      current_status:
-        position: ''
-        open_text: 'Currently open!'
-        closed_text: 'Currently closed'
-      schema:
-        enabled: false
-      timezone_field: ''
-      office_hours_first_day: ''
-    third_party_settings: {  }
-    type: office_hours
-    region: content
   field_year_of_birth:
     weight: 7
     label: inline
@@ -233,6 +205,7 @@ content:
       image_link: ''
     third_party_settings: {  }
 hidden:
+  field_history: true
   field_non_standard_work_time: true
   field_office: true
   field_user_status: true

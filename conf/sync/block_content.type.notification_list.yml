@@ -1,0 +1,8 @@
+uuid: 5cf7618f-77f6-4257-b962-5991502c4151
+langcode: en
+status: true
+dependencies: {  }
+id: notification_list
+label: 'Notification List'
+revision: 0
+description: ''

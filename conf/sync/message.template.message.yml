@@ -1,0 +1,14 @@
+uuid: aa9860ca-e983-4652-af1b-59ae32e9c91e
+langcode: en
+status: true
+dependencies: {  }
+template: message
+label: Message
+description: ''
+text: {  }
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

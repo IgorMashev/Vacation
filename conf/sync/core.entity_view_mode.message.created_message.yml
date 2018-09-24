@@ -1,0 +1,10 @@
+uuid: 24f9d227-e477-4bbb-890c-8036af0f4ca0
+langcode: en
+status: true
+dependencies:
+  module:
+    - message
+id: message.created_message
+label: 'Created message'
+targetEntityType: message
+cache: true

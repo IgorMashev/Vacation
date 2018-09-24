@@ -1,0 +1,30 @@
+uuid: aa580e18-6ce1-4dfa-9061-89ff4837732c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.message.field_create
+    - field.field.message.message.field_create_webform
+    - message.template.message
+  module:
+    - webform
+id: message.message.default
+targetEntityType: message
+bundle: message
+mode: default
+content:
+  field_create:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_create_webform:
+    weight: 0
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+hidden: {  }

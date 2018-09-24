@@ -1,0 +1,22 @@
+uuid: aff6ddf9-1de4-4051-bfc1-9df070333f88
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.notification_list
+    - field.field.block_content.notification_list.field_notification_list
+  module:
+    - options
+id: block_content.notification_list.default
+targetEntityType: block_content
+bundle: notification_list
+mode: default
+content:
+  field_notification_list:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

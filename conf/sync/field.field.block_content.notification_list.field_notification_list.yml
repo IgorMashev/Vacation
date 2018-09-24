@@ -1,0 +1,21 @@
+uuid: 61cfc21d-812e-4b2a-962a-121914d70145
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.notification_list
+    - field.storage.block_content.field_notification_list
+  module:
+    - options
+id: block_content.notification_list.field_notification_list
+field_name: field_notification_list
+entity_type: block_content
+bundle: notification_list
+label: 'Notification List'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: fb6c8b4c-86df-409a-9aeb-87b8dfe612f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_sass
+id: messages
+theme: bootstrap_sass
+region: content
+weight: -9
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

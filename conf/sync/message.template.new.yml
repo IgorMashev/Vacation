@@ -1,0 +1,14 @@
+uuid: 47dea38d-9a95-46f4-97ea-379bff16624a
+langcode: en
+status: true
+dependencies: {  }
+template: new
+label: new
+description: ''
+text: {  }
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

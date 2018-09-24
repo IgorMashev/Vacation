@@ -1,0 +1,19 @@
+smtp_on: 1
+smtp_host: smtp.gmail.com
+smtp_hostbackup: ''
+smtp_port: '25'
+smtp_protocol: ''
+smtp_username: ''
+smtp_password: ''
+smtp_hide_password: 0
+smtp_fromname: qaz
+smtp_always_replyto: 1
+smtp_keepalive: 1
+smtp_debug: '0'
+smtp_debug_log: 0
+phpmailer_test: ''
+smtp_ssl_verify_peer: 0
+smtp_ssl_verify_peer_name: 0
+smtp_ssl_allow_self_signed: 0
+_core:
+  default_config_hash: 66xzFTgtayqHOpOiVRb4H0D2dzll41Uz0Y52ml7Z-Rs
