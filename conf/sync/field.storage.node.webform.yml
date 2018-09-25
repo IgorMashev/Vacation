@@ -6,8 +6,12 @@ dependencies:
     module:
       - webform_node
   module:
+    - field_permissions
     - node
     - webform
+third_party_settings:
+  field_permissions:
+    permission_type: public
 _core:
   default_config_hash: SJRNyZvo1lWcPLKxH_u6giTk1y51ymXvpKX65YUNd7w
 id: node.webform

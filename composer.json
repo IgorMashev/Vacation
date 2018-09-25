@@ -48,7 +48,8 @@
         "drupal/facets": "^1.1",
         "drupal/date_popup": "^1.0",
         "drupal/field_collection": "^1.0",
-        "drupal/r4032login": "^1.1"
+        "drupal/r4032login": "^1.1",
+        "drupal/mailsystem": "^4.1"
     },
     "replace": {
         "drupal/core": "^8.5"

@@ -20,7 +20,6 @@ dependencies:
     - field.field.user.user.field_slack
     - field.field.user.user.field_user_status
     - field.field.user.user.field_work_hours
-    - field.field.user.user.field_worktime
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -30,7 +29,6 @@ dependencies:
     - field_group
     - image
     - link
-    - office_hours
     - user
 third_party_settings:
   field_group:
@@ -294,29 +292,6 @@ content:
           entity_type: user
           bundle: user
     type: options_select
-    region: content
-  field_worktime:
-    weight: 11
-    settings: {  }
-    third_party_settings:
-      conditional_fields:
-        389bbca1-f167-426c-bfac-26373a7dde02:
-          dependee: field_non_standard_work_time
-          settings:
-            state: visible
-            condition: checked
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              value: false
-            effect: show
-            effect_options: {  }
-            selector: ''
-          entity_type: user
-          bundle: user
-    type: office_hours_default
     region: content
   user_picture:
     type: image_image
