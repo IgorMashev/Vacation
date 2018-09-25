@@ -11,7 +11,6 @@ dependencies:
     - field.field.user.user.field_facebook
     - field.field.user.user.field_full_name
     - field.field.user.user.field_github
-    - field.field.user.user.field_history
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
@@ -32,7 +31,6 @@ dependencies:
     - office_hours
     - options
     - user
-    - webform
 third_party_settings:
   field_group:
     group_links_to_social_networks:
@@ -139,16 +137,6 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
-    region: content
-  field_history:
-    weight: 25
-    label: above
-    settings:
-      source_entity: true
-    third_party_settings:
-      ds:
-        ds_limit: ''
-    type: webform_entity_reference_entity_view
     region: content
   field_instagram:
     weight: 20

@@ -12,7 +12,6 @@ dependencies:
     - field.field.user.user.field_facebook
     - field.field.user.user.field_full_name
     - field.field.user.user.field_github
-    - field.field.user.user.field_history
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
     - field.field.user.user.field_name
@@ -22,6 +21,7 @@ dependencies:
     - field.field.user.user.field_slack
     - field.field.user.user.field_user_status
     - field.field.user.user.field_work_hours
+    - field.field.user.user.field_worktime
     - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
     - image.style.profile
@@ -205,9 +205,9 @@ content:
       image_link: ''
     third_party_settings: {  }
 hidden:
-  field_history: true
   field_non_standard_work_time: true
   field_office: true
   field_user_status: true
   field_work_hours: true
+  field_worktime: true
   member_for: true

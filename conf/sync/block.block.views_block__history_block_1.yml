@@ -1,0 +1,31 @@
+uuid: 105296dd-587f-424d-91d9-4edef891c22f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.history
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_sass
+id: views_block__history_block_1
+theme: bootstrap_sass
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:history-block_1'
+settings:
+  id: 'views_block:history-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
