@@ -52,7 +52,8 @@
         "drupal/entity_notification": "^1.0",
         "drupal/ultimate_cron": "^2.0",
         "drupal/webform_views": "^5.0",
-        "drupal/viewsreference": "^1.2"
+        "drupal/viewsreference": "^1.2",
+        "drupal/mailsystem": "^4.1"
     },
     "replace": {
         "drupal/core": "^8.5"

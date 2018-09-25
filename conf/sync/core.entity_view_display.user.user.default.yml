@@ -13,7 +13,6 @@ dependencies:
     - field.field.user.user.field_github
     - field.field.user.user.field_instagram
     - field.field.user.user.field_job_title
-    - field.field.user.user.field_name
     - field.field.user.user.field_non_standard_work_time
     - field.field.user.user.field_office
     - field.field.user.user.field_project
@@ -21,11 +20,9 @@ dependencies:
     - field.field.user.user.field_user_status
     - field.field.user.user.field_work_hours
     - field.field.user.user.field_worktime
-    - field.field.user.user.field_year_of_birth
     - field.field.user.user.user_picture
   module:
     - age_field_formatter
-    - ds
     - field_group
     - link
     - office_hours
@@ -40,7 +37,7 @@ third_party_settings:
         - field_github
         - field_drupal_org
       parent_name: ''
-      weight: 8
+      weight: 6
       format_type: tabs
       format_settings:
         label: 'Links to social networks'
@@ -56,8 +53,15 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  field_children:
+  field_child:
     weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+  field_children:
+    weight: 4
     label: above
     settings:
       format: custom
@@ -82,7 +86,7 @@ content:
     settings:
       age_format: birthdate
       year_suffix: '1'
-      date_format: 'Y-m-d\TH:i:s'
+      date_format: d-m-Y
     third_party_settings: {  }
     type: age_field_formatter
     region: content
@@ -156,14 +160,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
-    region: content
-  field_name:
-    weight: 6
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
     region: content
   field_non_standard_work_time:
     weight: 14

@@ -14,6 +14,8 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'access webform submission log'
+  - 'create webform content'
+  - 'edit webform submissions own node'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
